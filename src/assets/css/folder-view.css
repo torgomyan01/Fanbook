@@ -1,0 +1,32 @@
+.folder-view .folder-section {
+    padding-top: 3.125rem;
+    border-top: 1px solid #e6e6e6;
+}
+
+.content-section .bought-btn,
+.content-section .edit-btn,
+.content-section .preview-btn {
+    position: relative;
+    transition: all 0.5s ease;
+    color: #000;
+}
+.content-section .edit-btn .edit-btn-to-upload-modal {
+    color: #007bff;
+    transition: 0.5s;
+}
+.content-section .edit-btn:hover .edit-btn-to-upload-modal {
+    color: #fff !important;
+}
+
+.content-section .bought-btn svg,
+.content-section .buy-btn svg,
+.content-section .preview-btn svg {
+    color: #000;
+    transition: all 0.5s ease;
+}
+
+.content-section .bought-btn:hover svg,
+.content-section .buy-btn:hover svg,
+.content-section .preview-btn:hover svg {
+    color: #fff !important;
+}

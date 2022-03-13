@@ -1,0 +1,176 @@
+.create-event-section .event-block {
+    min-height: 17.5rem;
+    line-height: 17.5rem;
+    border-radius: 0 !important;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.create-event-section .create-event-form {
+    transform: translateY(-2.8125rem);
+    margin-bottom: -2.8125rem;
+    min-height: 62.5rem;
+    background-repeat: no-repeat;
+    background-position: center 60%;
+}
+.create-event-section .create-event-form .form-block {
+    border-radius: 0.625rem;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0.1875rem 1.4375rem 0 rgb(0 0 0 / 10%);
+    height: 4rem;
+    padding: 10px !important;
+    line-height: 5.3125rem;
+    width: 100%;
+    position: relative;
+    top: -25px;
+    overflow: hidden;
+    margin-bottom: 1.25rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.create-event-section .create-event-form .form-block input {
+    border: none;
+    padding: 0 3.375rem;
+    font-family: 'Roboto-Regular';
+    font-size: 0.875rem;
+}
+.create-event-section .create-event-form .form-block label {
+    position: absolute;
+    left: 15px;
+    margin-bottom: -3px;
+    font-size: 1.6rem;
+}
+.create-event-section .create-txt {
+    font-size: 1.1875rem;
+    color: #767676;
+    font-family: 'Roboto-Regular';
+    margin-bottom: 0;
+}
+.create-event-section .create-txt span {
+    color: #5e5b5b;
+}
+.create-event-section .new-event-btn {
+    border-radius: 0.625rem;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0rem 0.1875rem 1.4375rem 0rem rgb(0 0 0 / 20%);
+    color: #282828;
+    font-size: 15px;
+    position: relative;
+    padding: 0 50px;
+    height: auto;
+}
+.create-event-section .plus-icon {
+    position: absolute;
+    left: 1.0625rem;
+    font-size: 20px;
+    color: #828282;
+    font-family: 'Roboto-Regular';
+}
+.event-image-to-search-event-pag {
+    width: 100%;
+    height: 300px;
+    border-radius: 5px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.event-img-search-my-event-page {
+    width: 100%;
+    height: 300px;
+    border-radius: 0.3125rem;
+    margin-right: 0;
+    margin-top: 1rem;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.event-img-search-my-event-page video {
+    width: auto !important;
+    height: 100% !important;
+}
+
+.event-img-search-my-event-page .fa-play-circle {
+    font-size: 45px;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    color: #fff;
+    box-shadow: 1px 4px 7px 0 #0000008f;
+    border-radius: 40px;
+    background: #b12029;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.event-img .fa-play-circle {
+    font-size: 45px;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    color: #fff;
+    box-shadow: 1px 4px 7px 0 #0000008f;
+    border-radius: 40px;
+    background: #b12029;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.bgc-while {
+    background: #fff;
+}
+.publisher-image-to-search-event-page {
+    width: 150px;
+    height: 150px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+}
+.search-p-event-name {
+    color: #002e6d;
+}
+.information-block-events {
+    position: absolute;
+    width: 100%;
+    bottom: 10px;
+}
+@media (max-width: 768px) {
+    .information-block-events {
+        position: relative;
+    }
+}
+.publisher-no-image-to-search-event-page {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    color: #ffffffc9;
+    border-radius: 5px;
+    font-weight: 700;
+}
+.no-result-my-event-search {
+    width: 100%;
+    text-align: center;
+    margin-top: 100px;
+    font-weight: 700;
+    font-size: 50px;
+    color: #0000003b;
+}
+
+*:-webkit-autofill,
+*:-webkit-autofill:hover,
+*:-webkit-autofill:focus,
+*:-webkit-autofill:active {
+    background: transparent;
+}
+
+@media (max-width: 768px) {
+    .publisher-image-to-search-event-page {
+        margin-top: 30px;
+    }
+}

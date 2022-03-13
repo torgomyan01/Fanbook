@@ -1,0 +1,58 @@
+.template-9-block,
+.create-front-back {
+    width: 100%;
+    height: 100%;
+    background: #ffffff;
+    position: relative;
+}
+
+.template-9-block {
+    width: calc(100% - 15px);
+    height: calc(100% - 30px);
+    display: flex;
+}
+
+.template-9-block .template-9-block-1 {
+    width: calc(70% - 30px);
+    height: 100%;
+    margin-left: 15px;
+}
+
+.template-9-block .template-9-block-2 {
+    width: calc(100% / 3 - 40px);
+    height: 100%;
+    margin-left: 15px;
+    position: relative;
+    top: 0px;
+    right: -8px;
+}
+
+.template-9-block .template-9-block-3 {
+    width: calc(100% / 3 - 15px);
+    height: 100%;
+    margin-left: 15px;
+}
+
+.template-9-block .template-9-block-4 {
+    width: calc(100% / 3 - 15px);
+    height: 100%;
+    margin-left: 15px;
+}
+
+.template-9-block .template-9-block-1,
+.template-9-block .template-9-block-2,
+.template-9-block .template-9-block-3,
+.template-9-block .template-9-block-4 {
+    background: #e8e8e8;
+    border-radius: 5px;
+    margin-bottom: 0;
+}
+
+.template-9-block .blocks {
+    cursor: pointer;
+    position: relative;
+}
+
+.template-9-block .blocks:hover {
+    background-color: #a5a4a4 !important;
+}

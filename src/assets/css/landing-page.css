@@ -1,0 +1,387 @@
+/*----------------------------------event-section---------------------------------------------------*/
+
+.event-section {
+    padding: 4rem 0 5.625rem;
+}
+.event-section .event-box {
+    max-width: 435px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    box-shadow: 0px 3px 23px 0px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+.event-section .event-box-header {
+    width: 100%;
+    height: 20.812rem;
+}
+.event-section .event-section_title {
+    color: #000000;
+    font-size: 2.5rem;
+}
+.event-section .event-section_txt {
+    font-size: 1.0625rem;
+    color: #000000;
+    font-family: 'MyriadPro-Light';
+    margin-bottom: 3.56rem;
+}
+.event-section .event-box_body {
+    padding: 0 1.875rem 2.5rem;
+}
+.event-section .event-box_pretitle {
+    font-size: 1rem;
+    color: #8c8c8c;
+    font-family: 'MYRIADPRO-REGULAR';
+}
+.event-section .event-box_title {
+    font-size: 1.5rem;
+    color: #000000;
+    margin-bottom: 0.3rem;
+    font-weight: 600;
+}
+.event-section .event-box_txt {
+    font-family: 'MyriadPro-Light';
+    font-size: 15px;
+    color: #4c4c4c;
+    line-height: 18px;
+    height: auto;
+    margin-bottom: 16px;
+}
+.event-section .your-photo {
+    border-radius: 5px;
+    margin-right: 5px;
+    background-color: #e8e8e8;
+    width: 100%;
+    height: 86px;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center center;
+}
+.event-section .empty-box {
+    border: 1px dotted #a2a2a2;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.event-section .your-photo_link {
+    color: #b12029;
+    font-size: 13px;
+    font-family: 'MYRIADPRO-REGULAR';
+}
+.event-section .your-photo-box {
+    margin-bottom: 15px;
+}
+.book-section .book-btn,
+.profess-section .book-btn,
+.event-section .book-btn {
+    border-radius: 5px;
+    background-color: #b12029;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 1.0625rem;
+    font-family: 'MYRIADPRO-REGULAR';
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 0.75rem;
+    border: 0;
+}
+.event-section .note-txt {
+    font-family: 'MYRIADPRO-REGULAR';
+    font-size: 0.75rem;
+    color: #535353;
+    line-height: 1.3;
+}
+.event-section .event-box-header {
+    width: 100%;
+    height: 20.93rem;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    background-position: center;
+}
+.event-section .event-box_headertxt {
+    padding: 1rem 1.875rem 0;
+}
+
+/*----------------------------------end event-section---------------------------------------------------*/
+/*----------------------------------fans-section---------------------------------------------------*/
+
+.fans-section {
+    padding: 5.25rem 0 6.625rem;
+    background: url('../../assets/images/landing/fans-bg.png') no-repeat #0079ff;
+    background-position: right top;
+}
+.fans-section .fans-title {
+    font-size: 4.375rem;
+    font-family: 'MyriadPro-Light';
+    color: #ffffff;
+}
+.fans-section .mw-41 {
+    max-width: 41.562rem;
+    margin: 0 auto 3.2rem;
+}
+.fans-section .fans-txt {
+    color: #ffffff;
+    font-size: 1.25rem;
+    font-family: 'MyriadPro-Light';
+    line-height: 1.6;
+}
+.fans-section .fans-img_box {
+    max-width: 435px;
+    width: 100%;
+    height: 435px;
+    border-radius: 5px;
+    box-shadow: 0px 3px 23px 0px rgba(0, 0, 0, 0.1);
+    background-size: cover;
+    cursor: pointer;
+    margin: auto;
+}
+.fans-section .print-xtx {
+    color: #ffffff;
+    font-size: 3.75rem;
+    font-family: 'Omnet-Light';
+}
+
+/*----------------------------------------end fans-section---------------------------------------------------*/
+/*----------------------------------------profess-section---------------------------------------------------*/
+
+.profess-section {
+    background-color: #ffffff;
+    padding: 5rem 0;
+}
+.profess-section .profess-title {
+    font-size: 2.5rem;
+    font-family: 'MYRIADPRO-REGULAR';
+    margin-bottom: 1rem;
+}
+.profess-section .profess-txt {
+    font-family: 'MyriadPro-Light';
+    margin-bottom: 3.6rem;
+    font-size: 1.0625rem;
+}
+.profess-section .profess-box {
+    max-width: 19.375rem;
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0px 3px 23px 0px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    cursor: pointer;
+}
+.profess-section .profess-box_header {
+    width: 100%;
+    height: 20.93rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.profess-section .profess-box_headertxt {
+    padding: 2.3rem 1.875rem 0rem;
+}
+.profess-section .profess-box_body {
+    padding: 0 1.875rem 2.3rem;
+}
+.profess-section .profess-box_pretitle {
+    color: #8c8c8c;
+    font-size: 1rem;
+    font-family: 'MyriadPro', 'sans-serif';
+    margin-bottom: 0.312rem;
+}
+.profess-section .profess-box_title {
+    color: #000000;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+.profess-section .profess-box_txt {
+    color: #4c4c4c;
+    font-size: 1.0625rem;
+    font-family: 'MyriadPro-Light';
+    margin-bottom: 1.5rem;
+    line-height: 1.5;
+}
+.profess-section .book-btn {
+    margin-bottom: 0.8125rem;
+}
+.profess-section .note-txt {
+    font-size: 0.75rem;
+    color: #535353;
+    font-family: 'MYRIADPRO-REGULAR';
+    margin-bottom: 0;
+}
+/*-----------------------------------------------end profess-section-----------------------------------*/
+/*-----------------------------------------------partner-section-------------------------------------*/
+
+.partner-section {
+    background: url('../../assets/images/landing/partner-bg.png') no-repeat;
+    padding: 10rem 0 11.25rem;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+.partner-section .mw-56 {
+    max-width: 56.875rem;
+    margin: 0 auto;
+}
+.partner-section .partner-title {
+    color: #ffffff;
+    font-size: 4.375rem;
+    font-family: 'Omnet-Light';
+    margin-bottom: 1.3rem;
+}
+.partner-section .partner-txt {
+    color: #ffffff;
+    font-size: 1.0625rem;
+    max-width: 25.125rem;
+    line-height: 1.5;
+    margin-bottom: 2rem;
+}
+.partner-section .load-box {
+    top: auto !important;
+    bottom: 3.125rem;
+    right: 3.875rem !important;
+}
+/*-----------------------------------------------end partner-section-------------------------------------*/
+
+/*----------------------------------------------------book-section--------------*/
+
+.book-section {
+    background-color: #0079ff;
+    padding: 5.437rem 0;
+}
+
+.book-section .book-section_title {
+    color: #ffffff;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+.book-section .book-section_txt {
+    color: #ffffff;
+    font-size: 1.0625rem;
+    font-family: 'MyriadPro-Light';
+    margin-bottom: 3.75rem;
+}
+
+.book-section .book-box {
+    max-width: 42.5rem;
+    width: 100%;
+    height: 42.187rem;
+    border-radius: 7px;
+    -webkit-box-shadow: 9px 8px 5px 0px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 9px 8px 5px 0px rgba(0, 0, 0, 0.3);
+    box-shadow: 9px 8px 5px 0px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+.book-section .book-box .img-box {
+    border-radius: 7px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 2rem;
+    display: flex;
+    align-items: flex-end;
+}
+.book-section .price-box {
+    border-radius: 5px;
+    box-shadow: 0px 23px 32px 0px rgba(0, 0, 0, 0.23);
+    background-color: #ffffff;
+    padding: 2.25rem 1.125rem 1.5rem;
+    width: 100%;
+    position: relative;
+}
+.book-section .price-box:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 1.25rem;
+    background-color: #b12029;
+    height: 0.625rem;
+    width: 3.75rem;
+    border-bottom-right-radius: 0.3125rem;
+    border-bottom-left-radius: 0.3125rem;
+}
+.book-section .txt-box {
+    width: 80%;
+}
+.book-section .btn-box {
+    width: 20%;
+}
+.book-section .old-price,
+.book-section .price-pretitle {
+    color: #8c8c8c;
+    font-size: 1rem;
+}
+
+.book-section .price-pretitle {
+    margin-bottom: 0.3125rem;
+    font-family: 'MYRIADPRO-REGULAR';
+}
+
+.book-section .price-title {
+    color: #000000;
+    font-size: 1.5rem;
+    margin-bottom: 0.6rem;
+    font-weight: 600;
+}
+.book-section .price-txt {
+    max-width: 26.25rem;
+    color: #4c4c4c;
+    line-height: 1.6;
+    font-family: 'MyriadPro-Light';
+}
+.book-section .new-price {
+    color: #0079ff;
+    font-size: 1.5rem;
+    font-family: 'Omnes Regular';
+    font-weight: 600;
+}
+.book-section .buy-btn {
+    border-radius: 5px;
+    background-color: #0079ff;
+    text-align: center;
+    color: #ffffff;
+    padding: 0 5px;
+    line-height: 2.8125rem;
+    height: 2.8125rem;
+    font-family: 'MYRIADPRO-REGULAR';
+    display: inline-block;
+    max-width: 6.25rem;
+    width: 100%;
+    font-size: 1rem;
+}
+
+.book-section .book-btn {
+    max-width: 15.75rem;
+}
+.book-section .add-txt {
+    font-size: 1.0625rem;
+    color: #ffffff;
+    font-family: 'MyriadPro-Light';
+}
+/*-----------------------------------------------end book section----------------------------------*/
+.video-block-logout-page {
+    width: 100%;
+    height: 20.93rem;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background: #000000;
+}
+.video-block-logout-page .fa-play-circle {
+    position: absolute;
+    bottom: 55px;
+    right: 20px;
+    font-size: 50px;
+    color: #fff;
+}
+.video-block-logout-page video {
+    width: 100%;
+    height: 100%;
+}

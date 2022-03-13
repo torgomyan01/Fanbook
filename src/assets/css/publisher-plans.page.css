@@ -1,0 +1,98 @@
+.bgc-green-light {
+    background: #22de22;
+}
+.bgc-blue {
+    background: #1478fc !important;
+}
+.bgc-blue-dark {
+    background: #114a71;
+}
+
+.c-green-light {
+    color: #22de22;
+}
+.c-blue {
+    color: #1478fc;
+}
+.c-blue-dark {
+    color: #114a71;
+}
+
+.plans-block .plan-block {
+    width: 100%;
+    height: 700px;
+    padding: 20px;
+    position: relative;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.plans-block .plan-block .status {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 7px;
+    border-radius: 0 0 0 5px;
+}
+
+.plans-block .plan-block .title-plans {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 33px;
+    color: #032e6d;
+    text-align: left;
+}
+.plans-block .plan-block .description-plans {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    font-family: 'MYRIADPRO-REGULAR', sans-serif;
+}
+
+.plans-block .plan-block .info-text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 17px;
+    font-family: 'MYRIADPRO-REGULAR', sans-serif;
+}
+.plans-block .plan-block .bottom-block {
+    margin-top: 100px;
+    width: 100%;
+}
+
+.plans-block .plan-block .bottom-block .type {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 33px;
+    color: #032e6d;
+    font-family: 'MYRIADPRO-REGULAR', sans-serif;
+}
+.plans-block .plan-block .bottom-block button {
+    width: 100%;
+    color: #fff;
+    transition: 0.2s;
+}
+
+.plans-block .plan-block .bottom-block button:hover {
+    background: #0c3b57;
+}

@@ -1,0 +1,301 @@
+.folder-part .total-box,
+.tab-line-section .total-box {
+    border-radius: 3px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 4px 30px 0px rgb(0 0 0 / 6%);
+    padding: 0.687rem 0.5625rem 1.0625rem 1.125rem;
+    max-width: 14.375rem;
+    margin-top: 1.25rem;
+}
+.tab-line-section .total-box .total-box_title {
+    font-size: 1rem;
+    color: #737373;
+    margin-bottom: 0.625rem;
+}
+.step-section {
+    background-color: #f6faff;
+    border-bottom: 0.0625rem solid #e6e6e6;
+    border-top: 0.0625rem solid #e6e6e6;
+    padding: 4.375rem 0;
+}
+.text-center {
+    text-align: center !important;
+}
+.middle-main.poster-preview {
+    width: 100% !important;
+    margin-left: 0 !important;
+    height: 100vh;
+    overflow: auto;
+}
+.poster-template-block-images {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 5px;
+    background-color: #718ba4;
+}
+.step-section .step-section_title {
+    font-size: 2.5rem;
+    margin-bottom: 1.5625rem;
+}
+.step-section .step-section_txt {
+    margin-bottom: 2.875rem;
+    font-size: 17px;
+}
+.step-section .step-box {
+    max-width: 26.67rem;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #d1d1d1;
+    background-color: #ffffff;
+    padding: 1.4375rem 1.25rem 3.125rem;
+    cursor: pointer;
+}
+.step-section .step-txt {
+    font-family: 'MyriadProSemibold';
+    color: #939393;
+    font-size: 1.0625rem;
+    margin-bottom: 1.125rem;
+}
+.step-section .step-box-img {
+    margin-bottom: 2.375rem;
+    text-align: center;
+}
+.step-section .step-box-img svg {
+    width: 4rem;
+    height: auto;
+}
+
+.step-section .step-box:hover svg {
+    fill: #0084ff;
+}
+
+.card-list .img-box span {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    background: #fff;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2px 4px;
+    font-size: 12px;
+    border-radius: 3px;
+}
+.card-list .img-box,
+.select-book-section .img-box {
+    border-radius: 5px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    -webkit-box-shadow: 9px 8px 5px 0px rgb(0 0 0 / 30%);
+    -moz-box-shadow: 9px 8px 5px 0px rgba(0, 0, 0, 0.3);
+    box-shadow: 9px 8px 5px 0px rgb(0 0 0 / 30%);
+    margin-right: 1.625rem;
+}
+.select-book-section .img-box {
+    height: 9.625rem;
+    width: 9.625rem;
+}
+.select-book-section .select-book_box {
+    max-width: 19.375rem;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #e1e1e1;
+    padding: 1.5625rem 1.625rem 1.625rem 1.875rem;
+    cursor: pointer;
+    position: relative;
+}
+.select-book-section .select-book_box:hover {
+    border: 1px solid #0084ff;
+}
+
+.select-template-section,
+.select-book-section {
+    border-bottom: 0.0625rem solid #e6e6e6;
+    padding: 4.375rem 0;
+    overflow: hidden;
+}
+.step-section {
+    overflow: hidden;
+}
+
+.select-template-section {
+    background-color: #f6faff;
+}
+.select-template-section .select-template_box {
+    border-radius: 5px;
+    border: 1px solid #e1e1e1;
+    padding: 1.4375rem 1.4375rem 1.75rem;
+    background-color: #ffffff;
+    font-family: 'MYRIADPRO-REGULAR';
+}
+.select-template-section .select-template_title {
+    color: #0084ff;
+    font-size: 18px;
+    margin-bottom: 1rem;
+}
+.select-template-section .img-box {
+    background-color: #eef0f1;
+    border-radius: 5px;
+    min-height: 7.75rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.select-template-section .select-template_txt {
+    font-size: 1rem;
+    color: #808080;
+    line-height: 1.4;
+    margin-bottom: 1.25rem;
+}
+.select-template-section .eye-btn {
+    text-align: center;
+    border-radius: 5px;
+    border: 2px solid #0084ff;
+    line-height: 2.4rem;
+    min-width: 2.5rem;
+}
+/*.select-template-section .template-btn {*/
+/*    color: #FFFFFF;*/
+/*    background-color: #0079ff;*/
+/*}*/
+.poster-block .select-template-section .select-template_box.active,
+.poster-block .select-template-section .select-template_box:hover,
+.select-book-section .select-book_box:hover,
+.select-book-section .select-book_box.active {
+    box-shadow: 0px 10px 19px 0px rgb(0 0 0 / 23%);
+    border: 2px solid #0084ff;
+}
+.select-book-section .event-btn:before {
+    content: '\f07a';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 10px;
+    font-family: 'Font Awesome 5 Pro';
+    font-weight: 900;
+    color: #0084ff;
+}
+
+.book-option .select-event_title {
+    padding-bottom: 12px;
+    border-bottom: 2px solid #dedede;
+}
+.check-item label,
+.radio-item label {
+    font-size: 1rem;
+    color: #000000;
+    padding-left: 1.625rem;
+    position: relative;
+    line-height: 1.25rem;
+    cursor: pointer;
+}
+.check-item label:before,
+.radio-item label:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 2px solid #bebebe;
+    height: 1.25rem;
+    width: 1.25rem;
+}
+.checkbox-create-book:before {
+    display: none;
+}
+.MuiRadio-colorSecondary.Mui-checked {
+    color: #0084ff !important;
+}
+.poster-block .select-template_box .check-item {
+    position: absolute;
+    top: 11px;
+    right: 22px;
+}
+.create-book-video-block {
+    overflow: hidden;
+    height: 26.375rem;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.create-book-video-block video {
+    height: 100% !important;
+    width: auto !important;
+}
+
+.create-book-video-block .fa-play-circle {
+    position: absolute;
+    right: 15px;
+    bottom: 15px;
+    font-size: 60px;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.3s;
+}
+.create-book-video-block .fa-play-circle:hover {
+    color: #b12029;
+}
+/* для элемента input c type="radio" */
+.custom-radio {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+}
+/* для элемента label связанного с .custom-radio */
+.custom-radio + label {
+    display: inline-flex;
+    align-items: center;
+    user-select: none;
+}
+/* создание в label псевдоэлемента  before со следующими стилями */
+.custom-radio + label::before {
+    content: '';
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    flex-shrink: 0;
+    flex-grow: 0;
+    border: 1px solid #adb5bd;
+    border-radius: 3px;
+    margin-right: 0.5em;
+    background-repeat: no-repeat;
+    background-size: 50% 50%;
+}
+.custom-radio:not(:disabled):not(:checked) + label:hover::before {
+    border-color: #b3d7ff;
+}
+.custom-radio:not(:disabled):active + label::before {
+    background-color: #b3d7ff;
+    border-color: #b3d7ff;
+}
+.custom-radio:focus + label::before {
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+.custom-radio:focus:not(:checked) + label::before {
+    border-color: #80bdff;
+}
+.custom-radio:checked + label::before {
+    content: '\f078';
+    font-family: 'Font Awesome 5 Pro';
+    font-weight: 900;
+    color: #ffffff;
+    bottom: 0;
+    background: #0084ff;
+    padding: 2px 4px 0 0;
+}
+.custom-radio:disabled + label::before {
+    background-color: #e9ecef;
+}
+
+.show-right-panel {
+    display: block;
+}
+
+.hide-right-panel {
+    display: none;
+}

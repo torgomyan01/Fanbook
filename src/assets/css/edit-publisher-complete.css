@@ -1,0 +1,589 @@
+.emb-settings .view-btn {
+    border: 1px solid #b12029;
+    background-color: #ffffff;
+    border-radius: 16px;
+    padding: 0 1rem;
+    line-height: 3rem;
+    height: 3rem;
+}
+.emb-settings .change-section {
+    padding: 1.625rem 0 2rem;
+}
+.change-section .change-block {
+    padding: 1.25rem 1.125rem 2.5rem;
+    border-radius: 0.625rem;
+    box-shadow: 0px 3px 7px 0px rgb(0 0 0 / 16%);
+}
+.change-section .btn-list {
+    margin-bottom: 2.0625rem;
+}
+.mr-4per {
+    margin-right: 1%;
+}
+.w-48per {
+    width: 48% !important;
+}
+
+.change-section .save-btn {
+    background-color: #b12029;
+    line-height: 3rem;
+    height: 3rem;
+    width: 100%;
+    color: #ffffff;
+}
+.change-section .cancel-btn {
+    border: 0.0625rem solid #b12029;
+    line-height: 2.875rem;
+    height: 3rem;
+    width: 100%;
+    color: #b12029;
+}
+.change-section .video-box {
+    height: 6.8125rem;
+    width: 12.9375rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-bottom: 3rem;
+}
+.change-section .play-icon {
+    position: absolute;
+    right: 0.625rem;
+    bottom: 0.625rem;
+}
+.change-section .color-box {
+    border-radius: 0.3125rem;
+    height: 1.375rem;
+    width: 2.25rem;
+    display: inline-block;
+    margin-right: 0.625rem;
+}
+
+.change-section .main-color {
+    background-color: #b12029;
+    border: 1px solid #b12029;
+}
+.change-section .sec-color {
+    background-color: #6dc95b;
+    border: 1px solid #6dc95b;
+}
+.change-section .terc-color {
+    background-color: #1479fc;
+    border: 1px solid #1479fc;
+}
+.change-section .backg-color {
+    background-color: #ffffff;
+    border: 1px solid #e2e2e2;
+}
+.post-section .book-list,
+.change-section .book-list {
+    padding-left: 1.375rem;
+    margin-bottom: 3.125rem;
+}
+.post-section .book-list li,
+.change-section .book-list li {
+    margin-bottom: 1.125rem;
+}
+.post-section .book-list li a,
+.change-section .book-list li a {
+    font-size: 1.125rem;
+    color: #000000;
+}
+.change-section .fa-plus {
+    margin-left: 0.8125rem;
+    color: #b12029;
+}
+.change-section .code-box .textarea-box {
+    border-radius: 0.625rem;
+    border: 0.0625rem solid #e2e2e2;
+    height: 11.5rem;
+    width: 100%;
+    font-family: 'OmnesMedium';
+    font-size: 1rem;
+    overflow: hidden;
+    padding: 1rem 0.36125rem 1rem;
+    position: relative;
+}
+.change-section .code-box .textarea-box:before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 2rem;
+    width: 100%;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(
+        180deg,
+        rgba(255, 255, 255, 0.8) 0%,
+        rgba(255, 255, 255, 0.5) 48%,
+        rgba(255, 255, 255, 0) 100%
+    );
+    z-index: 5;
+}
+.change-section .code-box .textarea-box textarea {
+    padding: 0 1rem;
+    border: none;
+    font-size: 17px;
+    font-family: auto;
+}
+.emb-settings .right-block {
+    border-radius: 0.625rem;
+    box-shadow: 0px 3px 7px 0px rgb(0 0 0 / 16%);
+}
+.emb-settings .header {
+    padding: 0.9rem 1.5625rem;
+    margin-top: 0;
+}
+.container-fluid {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.emb-settings .header .logo {
+    width: 5.625rem;
+}
+.event-details-page .img-section {
+    width: 100%;
+    height: 31.25rem;
+    background: currentColor;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 1.875rem 0 0;
+}
+.event-details-page .img-section.loading {
+    animation: placeholder-glow 2s ease-in-out infinite;
+}
+
+.emb-settings.event-details-page .redbull-bottom .map-box {
+    height: 3.5625rem;
+}
+.emb-settings.event-details-page .img-section {
+    height: 15rem;
+}
+.right-block .img-section .dropdown {
+    position: absolute;
+    top: auto;
+    left: 0.4rem;
+    right: auto;
+    bottom: 60px;
+}
+.emb-settings .edit-round {
+    height: 1.75rem;
+    width: 1.75rem;
+    border: 0.0625rem solid #cbcbcb;
+    background-color: #ffffff;
+    display: inline-block;
+    border-radius: 50%;
+    color: #b12029;
+    font-size: 0.875rem;
+    cursor: pointer;
+    position: absolute;
+    top: 0.625rem;
+    right: 0.625rem;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.change-section .color-list {
+    margin-bottom: 2.875rem;
+}
+.emb-settings .header .navbar-dark .navbar-nav .nav-link {
+    font-size: 0.4775rem;
+}
+
+.emb-settings .header .bag-icon,
+header .bag-icon,
+.emb-settings .header .search-icon,
+.emb-settings .header .user-icon {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.change-section .color-list {
+    margin-bottom: 2.875rem;
+}
+.emb-settings .header .navbar-dark .navbar-nav .nav-link {
+    font-size: 0.4775rem;
+}
+
+.emb-settings .header .bag-icon,
+header .bag-icon,
+.emb-settings .header .search-icon,
+.emb-settings .header .user-icon {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.emb-settings .header .number {
+    width: 0.625rem;
+    height: 0.625rem;
+    line-height: 0.625rem;
+    font-size: 0.388rem;
+}
+.emb-settings .header .number {
+    width: 0.625rem;
+    height: 0.625rem;
+    line-height: 0.625rem;
+    font-size: 0.388rem;
+}
+.right-block .edit-round_item {
+    margin-bottom: 1.3125rem;
+}
+.right-block .dropdown-menu .cancel-btn,
+.right-block .dropdown-menu .save-btn {
+    height: 2.5rem;
+    line-height: 2.5rem;
+}
+.change-section .fa-plus {
+    margin-left: 0.8125rem;
+    color: #b12029;
+}
+
+.emb-settings.event-details-page .redbull-box {
+    transform: translateY(52px);
+}
+.event-details-page .redbull-top {
+    margin-bottom: 1.375rem;
+}
+.emb-settings.event-details-page .redbull-top .img-box {
+    width: 2.687rem;
+}
+.event-details-page .redbull-title {
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: MYRIADPRO-REGULAR;
+}
+.emb-settings.event-details-page .redbull-title {
+    font-size: 0.424rem;
+}
+.emb-settings.event-details-page .redbull-txt {
+    font-size: 0.7125rem;
+}
+.event-details-page .redbull-btn {
+    background-color: #ffffff;
+    color: #b12029;
+}
+.emb-settings.event-details-page .redbull-btn {
+    min-width: 3rem;
+    line-height: 1.0625rem;
+    height: 1.0625rem;
+    font-size: 0.4775rem;
+    border-radius: 0.125rem;
+}
+.event-details-page .edit-btn {
+    border-radius: 5px;
+    background-color: #ffffff;
+    min-width: 2.1875rem;
+    height: 2.1875rem;
+    text-align: center;
+    line-height: 1.9rem;
+    display: inline-block;
+}
+.emb-settings.event-details-page .edit-btn {
+    min-width: 1.0625rem;
+    line-height: 1.0625rem;
+    height: 1.0625rem;
+    border-radius: 0.125rem;
+}
+.publisher-section .social-item,
+.publisher-section .location-box,
+.img-section .location-box,
+.img-section .social-item {
+    border-radius: 5px;
+    width: 35px;
+    height: 35px;
+    line-height: 30px;
+    background-color: #ffffff;
+    display: inline-block;
+    text-align: center;
+}
+.emb-settings .publisher-section .social-item,
+.emb-settings .publisher-section .location-box,
+.emb-settings .img-section .location-box,
+.emb-settings .img-section .social-item {
+    border-radius: 0.125rem;
+    width: 1.0625rem;
+    height: 1.0625rem;
+    line-height: 1.0625rem;
+}
+.event-details-page .redbull-bottom_title {
+    font-size: 3.125rem;
+    font-family: Omnet-Light;
+}
+.emb-settings.event-details-page .redbull-bottom_title {
+    font-size: 1.4375rem;
+}
+.emb-settings.event-details-page .redbull-bottom_item {
+    border-radius: 0.125rem;
+    height: 1.0625rem;
+    line-height: 0.7rem;
+    padding: 0 0.5rem;
+}
+.emb-settings .post-section .explore-box_pretitle,
+.emb-settings .shared-block .shared-txt,
+.emb-settings .posters-block .posters-pretitle,
+.emb-settings .shared-block .shared-box_txt,
+.emb-settings.event-details-page .post-section .img-box_title,
+.emb-settings .post-section .upload-txt,
+.emb-settings.event-details-page .redbull-bottom_item a,
+.emb-settings.event-details-page .post-section .book-box_pretitle,
+.emb-settings.event-details-page .books-block_txt {
+    font-size: 0.4775rem;
+}
+.emb-settings.event-details-page .redbull-bottom_item {
+    border-radius: 0.125rem;
+    height: 1.0625rem;
+    line-height: 0.7rem;
+    padding: 0 0.5rem;
+}
+.emb-settings.event-details-page .redbull-bottom_item .flag-icon img {
+    width: 0.9375rem;
+}
+.event-details-page .b-bottom {
+    border-bottom: 1px solid;
+}
+.emb-settings.event-details-page .redbull-bottom .map-box {
+    height: 3.5625rem;
+    padding: 0;
+    margin-bottom: 0;
+}
+.emb-settings .publisher-section .social-item,
+.emb-settings .publisher-section .location-box,
+.emb-settings .img-section .location-box,
+.emb-settings .img-section .social-item {
+    border-radius: 0.125rem;
+    width: 1.0625rem;
+    height: 1.0625rem;
+    line-height: 1.0625rem;
+}
+.event-details-page .post-section {
+    background-color: #ffffff;
+    padding: 10.187rem 0 5.6525rem;
+}
+.emb-settings.event-details-page .post-section {
+    padding: 4.9rem 0 2.75rem;
+}
+.emb-settings.event-details-page .books-block {
+    margin-bottom: 2.1875rem;
+}
+.emb-settings .shared-box .arrow {
+    width: 0.6875rem;
+}
+.post-section .explore-box,
+.post-section .red-box {
+    border-radius: 5px;
+    padding: 2.5rem 2.8rem 2.8rem;
+    margin-bottom: 1.875rem;
+}
+.post-section .red-box {
+    background-color: #b12029;
+}
+.emb-settings .post-section .explore-box,
+.emb-settings .post-section .red-box {
+    padding: 1.25rem;
+}
+.emb-settings .post-section .explore-box,
+.emb-settings .post-section .red-box {
+    margin-bottom: 0.9375rem;
+}
+.emb-settings .post-section .explore-btn,
+.emb-settings .post-section .explore-box_txt,
+.emb-settings .post-section .red-box_txt {
+    font-size: 0.5075rem;
+}
+.emb-settings .post-section .red-box_txt:not(:last-child) {
+    margin-bottom: 1rem;
+}
+.emb-settings .post-section .explore-box_pretitle,
+.emb-settings .shared-block .shared-txt,
+.emb-settings .posters-block .posters-pretitle,
+.emb-settings .shared-block .shared-box_txt,
+.emb-settings.event-details-page .post-section .img-box_title,
+.emb-settings .post-section .upload-txt,
+.emb-settings.event-details-page .redbull-bottom_item a,
+.emb-settings.event-details-page .post-section .book-box_pretitle,
+.emb-settings.event-details-page .books-block_txt {
+    font-size: 0.4775rem;
+}
+.event-details-page .post-section .book-box_title,
+.posters-block .posters-title,
+.shared-block .shared-title {
+    font-size: 1.5rem;
+    color: #000000;
+    font-weight: 600;
+}
+.emb-settings .post-section .explore-box_title,
+.emb-settings .post-section .red-box_title,
+.emb-settings.event-details-page .post-section .book-box_title,
+.emb-settings .posters-block .posters-title,
+.shared-block .shared-title {
+    font-size: 0.6875rem;
+}
+.emb-settings .post-section .buy-btn {
+    max-width: 4.6875rem;
+    height: 1.0625rem;
+    line-height: 1.0625rem;
+    margin-bottom: 0.9375rem;
+    font-size: 0.4775rem;
+}
+.emb-settings .post-section .buy-btn:before {
+    content: '';
+}
+.pre-order .book-box .img-box,
+.event-details-page .books-block .img-box {
+    border-radius: 5px;
+    background-color: #bfbcbc;
+    padding: 1.5rem;
+    display: inline-block;
+}
+.emb-settings.event-details-page .books-block .img-box {
+    border-radius: 0.125rem;
+    padding: 0.6875rem 0.5rem 0.875rem;
+}
+.pre-order .book-img,
+.event-details-page .books-block .book-img {
+    border-radius: 0.3125rem;
+    width: 6.875rem;
+    height: 6.875rem;
+    background-color: #dfdfdf;
+    background-size: cover;
+}
+.emb-settings.event-details-page .books-block .book-img {
+    width: 3.125rem;
+    height: 3.125rem;
+}
+.post-section .upload-box {
+    padding: 22px 5px 28px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #ffffff;
+    border: 1px dotted #bcbcbc;
+}
+.emb-settings .post-section .upload-box {
+    padding: 0.6875rem 0.3125rem;
+}
+.post-section .upload-link {
+    color: #b12029;
+    border-bottom: 1px solid;
+    margin-left: 5px;
+}
+.emb-settings .shared-block .shared-box_img {
+    width: 1.5625rem;
+    height: 1.5625rem;
+    line-height: 1.3rem;
+    border-radius: 0.125rem;
+}
+.emb-settings .shared-block .shared-box_title {
+    font-size: 0.59rem;
+}
+.shared-block .shared-body .img-box {
+    height: 160px;
+    width: 100%;
+    max-width: 160px;
+    line-height: 161px;
+    text-align: center;
+    border-radius: 5px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+.emb-settings .shared-block .shared-body .img-box {
+    height: 4.6875rem;
+    width: 100%;
+    line-height: 4.6875rem;
+}
+.emb-settings .change-section .shared-body .my-col {
+    padding-right: 4px !important;
+    padding-left: 4px !important;
+}
+.shared-block .shared-body .img-box:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 0;
+    height: 0;
+    transition: all 0.5s ease;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.shared-block .shared-body .img-box:hover:before {
+    width: 100%;
+    height: 100%;
+}
+.posters-block .poster-img {
+    background-color: #dfdfdf;
+    padding: 1.5625rem 1.875rem 1.875rem;
+    border-radius: 5px;
+    max-width: 9.875rem;
+    margin-bottom: 7px;
+    cursor: pointer;
+    position: relative;
+}
+.emb-settings .posters-block .poster-img {
+    padding: 0.6875rem 0.6875rem 0.8125rem;
+}
+.emb-settings .posters-block .poster-img {
+    margin-bottom: 0;
+}
+
+.emb-settings .post-section .explore-btn {
+    border-radius: 0.125rem;
+    line-height: 1.1875rem;
+    height: 1.1875rem;
+    min-width: 4.5625rem;
+}
+.emb-settings.event-details-page .shared-box:not(:last-child),
+.emb-settings.event-details-page .panel-group {
+    margin-bottom: 0.3125rem;
+}
+.attended-section .upload-list li a {
+    background-color: #ffffff;
+    border-radius: 0.125rem;
+    display: inline-block;
+    text-align: center;
+    color: #ffffff;
+    font-size: 0.5075rem;
+    width: 100%;
+    line-height: 1.5rem;
+    height: 1.5rem;
+    color: #b12029;
+    position: relative;
+}
+.attended-section .ios-btn:before {
+    content: '\f179';
+    font-family: 'Font Awesome 5 Brands';
+}
+.attended-section .android-btn:before {
+    content: '\f0da';
+    font-size: 1rem;
+}
+.emb-settings.event-details-page .books-block_title {
+    font-size: 0.6875rem;
+    margin-bottom: 0.875rem;
+}
+
+.posters-box .slick-next:before {
+    font-size: 20px;
+}
+
+@media (max-width: 768px) {
+    .post-section .red-box {
+        margin-top: 20px;
+        padding: 20px;
+    }
+}

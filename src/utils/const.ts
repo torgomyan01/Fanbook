@@ -1,0 +1,35 @@
+const API = '/api';
+const ADMIN_API = '/admin-api';
+
+export const API_URL = {
+    TEMP: `${process.env.REACT_APP_API_URL}${API}/temp`,
+    ACCESS: `${process.env.REACT_APP_API_URL}${API}/access`,
+    REGISTRATION: `${process.env.REACT_APP_API_URL}${API}/public/registration`,
+    USER_DATA: `${process.env.REACT_APP_API_URL}${API}/settings/profile`,
+    CONFIRM: `${process.env.REACT_APP_API_URL}${API}/public/confirmation`,
+    USER_EVENT: `${process.env.REACT_APP_API_URL}${API}/user-event`,
+    PUBLIC_EVENT: `${process.env.REACT_APP_API_URL}${API}/public/user-event`,
+    ALBUM: `${process.env.REACT_APP_API_URL}${API}/albums`,
+    ALBUM_UPLOAD: `${process.env.REACT_APP_API_URL}${API}/album/upload-file`,
+    AVATAR: `${process.env.REACT_APP_API_URL}${API}/settings/profile/avatar`,
+    SETTINGS: `${process.env.REACT_APP_API_URL}${API}/settings`,
+    DOWNLOADS: `${process.env.REACT_APP_API_URL}${API}/downloads`,
+    PUBLIC_SEARCH: `${process.env.REACT_APP_API_URL}${API}/public/search`,
+    BOOK: `${process.env.REACT_APP_API_URL}${API}/book`,
+    BOOK_SIZES: `${process.env.REACT_APP_API_URL}${API}/public/book-sizes`,
+    PUBLISHER: `${process.env.REACT_APP_API_URL}${API}/public/publisher-details`,
+    TEMPLATES: `${process.env.REACT_APP_API_URL}${API}/templates`,
+    POSTERS: `${process.env.REACT_APP_API_URL}${API}/posters`,
+    ORDERS: `${process.env.REACT_APP_API_URL}${API}/orders`,
+    DASHBOARD: `${process.env.REACT_APP_API_URL}${API}/publishers/dashboard`,
+    PUBLISHERS: `${process.env.REACT_APP_API_URL}${API}/publishers`,
+    TRANSACTIONS: `${process.env.REACT_APP_API_URL}${API}/transactions`,
+    ADMIN_TRANSACTIONS: `${process.env.REACT_APP_API_URL}${ADMIN_API}/transactions`,
+    ADMIN_USER: `${process.env.REACT_APP_API_URL}${ADMIN_API}/users`,
+    ADMIN_ALBUMS: `${process.env.REACT_APP_API_URL}${ADMIN_API}/albums`,
+    ADMIN_BOOKS: `${process.env.REACT_APP_API_URL}${ADMIN_API}/book`,
+    ADMIN_ORDERS: `${process.env.REACT_APP_API_URL}${ADMIN_API}/orders`,
+    ADMIN_PUBLISHERS: `${process.env.REACT_APP_API_URL}${ADMIN_API}/publishers`,
+    USERS: `${process.env.REACT_APP_API_URL}${ADMIN_API}/users`,
+    DELETE_USERS: `${process.env.REACT_APP_API_URL}${ADMIN_API}/users`
+};

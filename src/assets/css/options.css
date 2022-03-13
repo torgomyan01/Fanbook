@@ -1,0 +1,390 @@
+.options_main {
+    padding: 23px 32px 27px;
+    border: 0.0625rem solid #e1e1e1;
+}
+
+.tab-line-section .tab-header {
+    border-bottom: 0.0625rem solid #e6e6e6;
+}
+.tab-line-section .nav-tabs {
+    border: none;
+}
+.tab-line-section .nav-item {
+    width: 30.33%;
+    margin-bottom: 0;
+}
+.preorder-nav-link {
+    width: 30% !important;
+}
+
+.tab-line-section .nav-item .nav-link {
+    text-align: center;
+    color: #8f8f8f;
+    font-size: 22px;
+    padding: 0 16px 20px;
+    border: none;
+    text-transform: uppercase;
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+}
+.tab-line-section .nav-item .nav-link.active {
+    color: #000000;
+    border-bottom: 0.1875rem solid #0079ff;
+}
+.tab-line-section {
+    border-top: 0.0625rem solid #e6e6e6;
+    padding-top: 1.25rem;
+}
+.book-block {
+    background-color: #f6f6f6;
+}
+.book-block {
+    padding: 4.375rem 0;
+}
+.book-block .img-box {
+    box-shadow: none;
+    min-height: 26.375rem;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 0.3125rem;
+    display: inline-block;
+    background-color: #ffffff;
+}
+.snorkel-box {
+    padding-top: 0;
+    max-width: 530px;
+}
+.snorkel-box-title {
+    width: 100%;
+}
+.snorkel-box .library-txt,
+.library-section .library-txt {
+    font-family: 'MYRIADPRO-REGULAR';
+    color: #9e9e9e;
+}
+
+.book-block .event-btn {
+    height: 40px;
+    line-height: 38px;
+    max-width: 198px;
+    width: 100%;
+}
+.book-event-btn {
+    padding: 0 !important;
+    height: 40px;
+    line-height: 38px;
+    max-width: 198px;
+    width: 100%;
+    border-radius: 0.3125rem;
+    border: 0.0625rem solid #cacaca;
+    display: inline-block;
+    font-family: 'MyriadProSemibold';
+    text-align: center;
+    position: relative;
+    color: #007bff;
+    background-color: transparent;
+}
+.snorkel-box .event-btn,
+.total-box .event-btn {
+    border-radius: 0.3125rem;
+    border: 0.0625rem solid #cacaca;
+    display: inline-block;
+    font-family: 'MyriadProSemibold';
+    text-align: center;
+    padding: 0 5px;
+    position: relative;
+    color: #007bff;
+    background-color: transparent;
+}
+.total-box {
+    border-radius: 0.1875rem;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0rem 0.25rem 1.875rem 0rem rgb(0 0 0 / 6%);
+    padding: 0.687rem 0.5625rem 1.0625rem 1.125rem;
+    max-width: 14.375rem;
+    margin-left: auto;
+    margin-top: 1.25rem;
+}
+.total-box .total-box-title {
+    font-size: 1rem;
+    color: #737373;
+    margin-bottom: 0.625rem;
+}
+.total-box .total-box-img {
+    border-radius: 0.625rem;
+    height: 3.125rem;
+    width: 3.125rem;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+.step-section {
+    background-color: #ffffff;
+    border-bottom: 0.0625rem solid #e6e6e6;
+    border-top: 0.0625rem solid #e6e6e6;
+    padding: 4.375rem 0;
+    transition: 0.3s;
+    overflow: hidden !important;
+}
+
+.step-section .step-section-title {
+    font-size: 2.5rem;
+    margin-bottom: 1.5625rem;
+}
+.step-section .step-section-txt {
+    margin-bottom: 2.875rem;
+    font-size: 1.0625rem;
+}
+.step-box {
+    max-width: 26.67rem;
+    width: 100%;
+    border-radius: 0.3125rem;
+    border: 0.0625rem solid #d1d1d1;
+    background-color: #ffffff;
+    padding: 1.4375rem 1.25rem 3.125rem;
+    cursor: pointer;
+}
+.step-section .check-icon {
+    position: absolute;
+    top: 0.8125rem;
+    right: 1.125rem;
+}
+.step-section .step-txt {
+    font-family: 'MyriadProSemibold';
+    color: #939393;
+    font-size: 1.0625rem;
+    margin-bottom: 1.125rem;
+}
+.step-box-img {
+    margin-bottom: 2.375rem;
+    text-align: center;
+}
+.step-box-img img {
+    width: 6rem;
+    height: 5rem;
+}
+.steps-icon {
+    font-size: 31px;
+    color: #42c200;
+}
+.step-section .btn-box {
+    padding-top: 4.375rem;
+}
+.crop-section .red-btn,
+.step-section .red-btn {
+    background-color: #b12029;
+    max-width: 15.625rem;
+    width: 100%;
+    height: 3.125rem;
+    line-height: 3.125rem;
+    color: #ffffff;
+    position: relative;
+    margin-bottom: 45px;
+}
+.step-section .red-btn:before {
+    content: '\f02d';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 1.125rem;
+    height: 1.1875rem;
+    width: 1.0625rem;
+    font-family: 'Font Awesome 5 Pro';
+    font-weight: 900;
+}
+
+.crop-section .step-icon,
+.select-template-section .step-icon,
+.select-book-section .step-icon {
+    height: 4.375rem;
+    line-height: 4rem;
+    width: 4.375rem;
+    border-radius: 50%;
+    border: 0.125rem dotted #2093ff;
+    display: inline-block;
+    text-align: center;
+    font-size: 1.875rem;
+    margin-bottom: 2.5rem;
+}
+.select-book-section {
+    background-color: #f6f6f6;
+}
+.select-template-section,
+.select-book-section {
+    border-bottom: 0.0625rem solid #e6e6e6;
+    padding: 4.375rem 0;
+}
+.select-template-section .step-border,
+.select-book-section .step-border {
+    border-bottom: 0.125rem solid #dedede;
+    font-size: 1.0625rem;
+    color: #939393;
+    text-align: left;
+    padding-bottom: 1.1875rem;
+    font-family: 'MyriadProSemibold';
+    margin-bottom: 2.5rem;
+}
+.select-book-section .select-book-box {
+    max-width: 19.375rem;
+    width: 100%;
+    border-radius: 0.3125rem;
+    border: 0.0625rem solid #e1e1e1;
+    padding: 1.5625rem 1.625rem 1.625rem 1.875rem;
+    cursor: pointer;
+    position: relative;
+}
+
+.select-template-section {
+    background-color: #ffffff;
+}
+.select-template-section.show {
+    transition: 0.3s;
+    border-bottom: 0.0625rem solid #e6e6e6;
+    padding: 4.375rem 0;
+}
+.select-template-section.hide {
+    transition: 0.3s;
+    height: 0;
+    padding: 0;
+    border-bottom: 0;
+}
+
+.select-template-section .select-template-box {
+    max-width: 27.06rem;
+    border-radius: 0.3125rem;
+    border: 0.0625rem solid #e1e1e1;
+    padding: 1.4375rem 1.4375rem 1.75rem;
+    background-color: #ffffff;
+    font-family: 'MYRIADPRO-REGULAR';
+}
+.select-template-box .check-item {
+    position: absolute;
+    top: 0.6875rem;
+    right: 1.375rem;
+}
+.select-template-section .select-template-title {
+    color: #000000;
+    font-size: 1.125rem;
+}
+.select-book-box.active,
+.select-template-section .select-template-box.active {
+    box-shadow: 0 0.625rem 1.1875rem 0 rgb(0 0 0 / 23%);
+    border: 0.125rem solid #0084ff;
+}
+.crop-section {
+    overflow: hidden;
+    background-color: #f6f6f6;
+    padding: 4.375rem 0;
+    border-bottom: 0.0625rem solid #e6e6e6;
+}
+.border-right-left {
+    border-bottom: 0.125rem solid #dedede;
+    margin-bottom: 60px;
+}
+.crop-section .ready-txt {
+    position: relative;
+    text-transform: uppercase;
+    font-size: 1.125rem;
+    top: 0.9375rem;
+    display: inline-block;
+    background-color: #f6f6f6;
+    padding: 0 1.125rem;
+}
+.select-event-title {
+    padding-bottom: 0.75rem;
+    border-bottom: 0.125rem solid #dedede;
+}
+
+.book-tab .step-box:hover .step-box-img img {
+    filter: invert(47%) sepia(94%) saturate(5233%) hue-rotate(196deg)
+        brightness(105%) contrast(105%);
+}
+.purchased-icon {
+    color: #44c100;
+}
+.purchased-icon,
+.add-to-cart-icon {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0.625rem;
+    font-family: 'Font Awesome 5 Pro';
+    font-weight: 900;
+}
+
+.select-book-section .event-btn {
+    width: 100%;
+    max-width: 100%;
+    height: 2.8125rem;
+    line-height: 2.8125rem;
+    position: relative;
+}
+
+.book-tab .select-book-section .img-box {
+    height: 9.625rem;
+    width: 9.625rem;
+    border-radius: 0.3125rem;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    -webkit-box-shadow: 0.5625rem 0.5rem 0.3125rem 0rem rgb(0 0 0 / 30%);
+    -moz-box-shadow: 0.5625rem 0.5rem 0.3125rem 0rem rgba(0, 0, 0, 0.3);
+    box-shadow: 0.5625rem 0.5rem 0.3125rem 0rem rgb(0 0 0 / 30%);
+    margin-right: 1.625rem;
+}
+.poster-block .select-template-section .select-template-box.active,
+.poster-block .select-template-section .select-template-box:hover,
+.select-book-section .select-book-box:hover,
+.select-book-section .select-book-box.active {
+    box-shadow: 0rem 0.625rem 1.1875rem 0rem rgb(0 0 0 / 23%);
+    border: 0.125rem solid #0084ff;
+}
+.book-tab .select-template-section .select-template-title {
+    color: #0084ff;
+    font-size: 1.125rem;
+    margin-bottom: 1rem;
+}
+.select-template-section .img-box {
+    background-color: #eef0f1;
+    border-radius: 0.3125rem;
+    min-height: 7.75rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1.25rem;
+}
+.select-template-section .select-template-txt {
+    font-size: 1rem;
+    color: #808080;
+    line-height: 1.4;
+    margin-bottom: 1.25rem;
+}
+.select-template-section .template-btn {
+    color: #ffffff;
+    background-color: #0079ff;
+}
+.select-template-section .eye-btn {
+    text-align: center;
+    border-radius: 0.3125rem;
+    border: 0.125rem solid #0084ff;
+    line-height: 2.4rem;
+    min-width: 2.5rem;
+}
+.select-template-section .eye-btn svg {
+    color: #007bff;
+}
+
+.select-template-section .red-btn {
+    background-color: #b12029;
+    color: #ffffff;
+    max-width: 13.125rem;
+    width: 100%;
+    margin: auto;
+}
+.select-template-section .c-gray {
+    color: #838383;
+}

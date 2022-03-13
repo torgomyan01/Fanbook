@@ -1,0 +1,68 @@
+.preloader-site{
+    display: flex;
+    position: fixed;
+    background: #fff;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000000000;
+    transition: 0.5s;
+}
+.preloader-site.open{
+    opacity: 1;
+}
+.preloader-site.closePreloader{
+    opacity: 0;
+}
+.fanbook-logo{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+#loader {
+    animation: animate 1.5s linear infinite;
+    clip: rect(0, 160px, 160px, 80px);
+    height: 160px;
+    width: 160px;
+    position: absolute;
+    left: calc(50% - 80px);
+    top: calc(50% - 80px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes animate {
+    0% {
+        transform: rotate(0deg)
+    }
+    100% {
+        transform: rotate(220deg)
+    }
+}
+#loader:after {
+    animation: animate2 1.5s ease-in-out infinite;
+    clip: rect(0, 160px, 160px, 80px);
+    content:'';
+    border-radius: 50%;
+    height: 160px;
+    width: 160px;
+    position: absolute;
+}
+@keyframes animate2 {
+    0% {
+        box-shadow: inset #b21a24 0 0 0 5px;
+        transform: rotate(-140deg);
+    }
+    50% {
+        box-shadow: inset #b21a24 0 0 0 5px;
+    }
+    100% {
+        box-shadow: inset #b21a24 0 0 0 5px;
+        transform: rotate(140deg);
+    }
+}

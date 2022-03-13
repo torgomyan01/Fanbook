@@ -1,0 +1,42 @@
+.image-prev-block {
+    display: flex;
+    position: fixed;
+    top: -100vh;
+    left: 0;
+    background: rgb(0 0 0 / 35%);
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    z-index: 10000;
+    transition: 0.5s;
+    overflow: hidden;
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(10px);
+}
+.image-prev-block.show {
+    opacity: 1;
+    top: 0;
+}
+.image-prev-block.hide {
+    opacity: 1;
+    top: -100vh;
+}
+.image-prev-block .img-prev-body {
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    opacity: 0;
+    transition: 0.8s;
+}
+.image-prev-block .fa-times {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 30px;
+}

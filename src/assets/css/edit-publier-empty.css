@@ -1,0 +1,192 @@
+.publisher-profile .publisher-section {
+    padding-bottom: 90px;
+}
+main {
+    background: #fff;
+}
+.publisher-profile .publisher-right {
+    padding-left: 40px;
+}
+.publisher-section .about-box {
+    border-radius: 0.625rem;
+    border: 0.0625rem solid #e1e1e1;
+    margin-bottom: 3.75rem;
+    overflow: hidden;
+}
+.publisher-section .img-box {
+    min-height: 26.125rem !important;
+    height: 26.125rem !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-position: center center;
+}
+.publisher-section .follow-box {
+    box-shadow: -0.924rem 1.1012rem 2.3125rem 0rem rgb(0 0 0 / 23%);
+    border-radius: 5px;
+    padding: 46px 40px;
+}
+.publisher-profile.event-details-page .follow-box .redbull-btn {
+    width: auto;
+    max-width: none;
+    padding: 0 30px;
+    line-height: 43px;
+    height: 43px;
+}
+.publisher-section .user-box {
+    width: 11.8125rem;
+    height: 11.8125rem;
+    border-radius: 0.625rem;
+    background-color: #8297b7;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    margin-bottom: 0.625rem;
+    position: relative;
+}
+.camera-box {
+    height: 53px;
+    width: 53px;
+    border-radius: 50%;
+    line-height: 60.8px;
+    text-align: center;
+    background-color: #b12029;
+    color: #ffffff;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.publisher-section .social-box {
+    padding: 0.5rem 0.5rem;
+}
+.redbull-btn {
+    width: unset;
+}
+.add-btn {
+    max-width: 300px;
+    height: unset;
+    line-height: unset;
+    padding: 0.5rem 1rem;
+    color: #000;
+    border: 1px solid #dddddd;
+}
+.publisher-section .about-note {
+    border-radius: 0.3125rem;
+    padding: 2.375rem;
+    background-color: rgba(177, 32, 41, 0.89);
+    max-width: 27.1875rem;
+    position: absolute;
+    bottom: 2.1875rem;
+    right: 1.25rem;
+    min-width: 27.1875rem;
+}
+.about-note {
+    height: 15.625rem;
+}
+.about-note .b-bottom {
+    border-bottom: 3px solid #581014;
+}
+.h-100 {
+    height: 100% !important;
+}
+.publisher-section .about-note_title {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+.publisher-section .about-note_txt {
+    font-family: 'MyriadPro-Light', serif;
+    line-height: 1.5;
+    font-size: 1.0625rem;
+    opacity: 0.7;
+    border: 0;
+    width: 100%;
+    height: 69%;
+    background: rgb(177 32 41 / 0%);
+    color: #fff;
+}
+.publisher-section .about-note_txt::placeholder {
+    color: #fff;
+}
+.publisher-left_title {
+    border-bottom: 2px solid #7f7f7f;
+}
+.save-btn {
+    color: #ffffff;
+    background-color: #b12029;
+    line-height: 46px;
+    height: 46px;
+    max-width: 190px;
+    width: 100%;
+    border-radius: 5px;
+}
+.social-block .form-group {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+.social-block .count {
+    color: #8e8e8e;
+    font-size: 16px;
+    font-family: 'MYRIADPRO-REGULAR';
+}
+.social-block .form-item {
+    display: inline-block;
+    border-radius: 5px;
+    border: 1px solid #dddddd;
+    overflow: hidden;
+    height: 35px;
+    /* padding: 7px; */
+    min-width: 332px;
+    width: 100%;
+    position: relative;
+}
+
+@media (max-width: 420px) {
+    .social-block .form-item {
+        min-width: 265px;
+        width: 100%;
+    }
+}
+.social-block .form-item .right-part,
+.social-block .form-item .left-part {
+    position: absolute;
+    top: 0;
+    height: 2.1875rem;
+    line-height: 2.1875rem;
+}
+.social-block .form-item .left-part {
+    left: 0;
+    padding: 0 0.1875rem 0 14px;
+    min-width: 4rem;
+}
+.social-block .form-item .http-txt {
+    font-size: 17px;
+    color: #000000;
+    font-family: 'MyriadPro-Light';
+    margin-left: 14px;
+}
+.social-block .form-item input {
+    border: none;
+    width: 100%;
+    padding: 0 60px 0 97px;
+    font-size: 17px;
+    color: rgba(0, 0, 0, 0.59);
+    font-family: 'MYRIADPRO-REGULAR';
+    height: 100%;
+}
+.social-block .form-item .right-part {
+    right: 0;
+    padding: 0 10px;
+    left: unset;
+    top: -3px;
+}
+
+@media only screen and (max-width: 575px) {
+    .publisher-section .about-note {
+        left: 1.25rem;
+        min-width: auto !important;
+    }
+}

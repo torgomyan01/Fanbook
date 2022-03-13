@@ -1,0 +1,103 @@
+.modalBody {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.cropBlock {
+    width: 68%;
+}
+.infoBlock {
+    width: 32%;
+    padding: 0 10px 10px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 500px;
+}
+
+.infoTitle {
+    font-size: 15px;
+    color: #9e9e9e;
+}
+.infoText {
+    text-align: left;
+    color: #000;
+    font-size: 15px;
+    font-weight: 700;
+}
+.functionName {
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    text-align: left;
+    color: #9e9e9e;
+    margin-top: 15px;
+    padding-left: 10px;
+}
+.cropperBlock {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    height: 500px;
+}
+
+.slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 25px;
+    background: url('../../assets/images/strokes.png') 50% 50%;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: 0.2s;
+    transition: opacity 0.2s;
+    position: relative;
+}
+
+.slider:hover {
+    opacity: 1;
+}
+.slider:after {
+    content: '';
+    position: absolute;
+    width: 80px;
+    height: 25px;
+    background: linear-gradient(90deg, transparent, #ffffff);
+    right: 0;
+    top: 0;
+}
+.slider:before {
+    content: '';
+    position: absolute;
+    width: 80px;
+    height: 25px;
+    background: linear-gradient(-90deg, transparent, #ffffff);
+    left: 0;
+    top: 0;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 3px;
+    height: 25px;
+    background: #0448ad;
+    cursor: pointer;
+    position: relative;
+    z-index: 1000;
+    border-radius: 5px;
+}
+
+.slider::-moz-range-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 2px;
+    height: 25px;
+    background: #0448ad;
+    cursor: pointer;
+    position: relative;
+    z-index: 1000;
+}

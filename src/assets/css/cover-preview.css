@@ -1,0 +1,223 @@
+.header .navbar,
+header .navbar {
+    padding: 0;
+}
+.editor-tools-page header .navbar {
+    justify-content: space-between;
+    align-items: center;
+}
+.editor-tools-page .header-left {
+    display: flex;
+    align-items: center;
+}
+.editor-tools-page header .navbar-brand {
+    margin-bottom: 0;
+}
+.editor-tools-page header .banner-editor {
+    font-size: 13px;
+    font-family: 'OmnesMedium', sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    background-color: #000;
+    border-radius: 5px;
+    height: 19px;
+    line-height: 19px;
+    padding: 0 6px;
+    display: inline-block;
+    margin-right: 50px;
+}
+.editor-tools-page header .banner-editor.bg-blue {
+    background-color: #0079ff;
+}
+
+.editor-tools-page .header-top {
+    padding: 0;
+    border-bottom: 0px solid #e2e2e2;
+}
+editor-tools-page .btns-list {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+}
+.editor-tools-page .btn-edit-head {
+    border-radius: 5px;
+    height: 50px;
+    line-height: 48px;
+    border: 0.125rem solid;
+    padding: 0 15px;
+    font-size: 17px;
+    font-family: 'MYRIADPRO-REGULAR', sans-serif;
+    display: inline-block;
+}
+.editor-tools-page .btn-edit-head.white {
+    color: #000;
+    border-color: #000;
+    background-color: #fff;
+}
+.editor-tools-page .middle-main-preview {
+    background-color: #efefef;
+    padding: 100px 0 0;
+    position: relative;
+    width: 100%;
+    transition: 0.3s;
+}
+.editor-tools-page.preview-page .middle-main {
+    width: 100%;
+    margin-left: 0;
+}
+.editor-tools-page .main-header {
+    background-color: #fff;
+    box-shadow: 0 0.1875rem 0.75rem 0 rgb(0 0 0 / 16%);
+    padding: 10px 20px;
+    width: 100%;
+    display: flex;
+    align-items: start;
+}
+.editor-tools-page .main-header .label {
+    color: #878787;
+    font-size: 15px;
+    font-family: 'MYRIADPRO-REGULAR', sans-serif;
+    margin-bottom: 4px;
+}
+.form-inline {
+    display: flex;
+    flex-flow: nowrap;
+    align-items: center;
+}
+.editor-tools-page .main-header .form-control {
+    border: 1px solid #d9d9d9;
+    height: 2.125rem;
+    color: #000;
+    font-weight: 600;
+    padding: 0 5px 0 15px;
+    width: 60px;
+}
+.editor-tools-page .btn-go {
+    color: #fff;
+    font-size: 0.9375rem;
+    font-weight: 600;
+    outline: none;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    background: #b12029;
+    height: 33px;
+    padding: 5px 10px;
+    margin-left: 5px;
+}
+.editor-tools-page.preview-page .scroll-page-list {
+    max-width: calc(100vw - 194px);
+}
+.editor-tools-page .list-pages {
+    display: flex;
+    align-items: center;
+    overflow: auto;
+    height: 9rem;
+}
+.editor-tools-page .list-pages .list-pages-li {
+    font-size: 13px;
+    color: #878787;
+    font-family: 'MYRIADPRO-REGULAR', sans-serif;
+    margin-right: 30px;
+}
+.editor-tools-page .list-pages.double-page .list-pages-li {
+    margin-right: 20px;
+}
+.editor-tools-page .list-pages .list-pages-link {
+    border: 0.0625rem solid #d5d5d5;
+    border-radius: 5px;
+    width: 102px;
+    height: 102px;
+    margin-bottom: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    margin-top: -25px;
+}
+.editor-tools-page .list-pages .list-pages-link.active {
+    border: 0.125rem solid #0079ff;
+    box-shadow: 0 4px 5px 0 rgb(0 0 0 / 28%);
+}
+.editor-tools-page .list-pages.double-page .list-pages-li .list-pages-link {
+    width: 12.75rem;
+    height: 6.25rem;
+    overflow: hidden;
+    border: 0.0625rem solid #d5d5d5;
+    display: flex;
+    justify-content: center;
+}
+.editor-tools-page
+    .list-pages.double-page
+    .list-pages-li
+    .list-pages-link.active {
+    border: 0.125rem solid #0079ff;
+    box-shadow: 0 0 1.875rem 0 rgb(0 0 0 / 28%);
+}
+.editor-tools-page
+    .list-pages.double-page
+    .list-pages-li
+    .list-pages-link
+    span:first-of-type {
+    border-right: 0.0625rem solid #d5d5d5;
+}
+.editor-tools-page .list-pages.double-page .list-pages-li .pages-number {
+    display: flex;
+    justify-content: space-around;
+}
+.editor-tools-page .btn-edit {
+    border-radius: 5px;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 15px;
+    font-size: 16px;
+    font-family: 'MYRIADPRO-REGULAR', sans-serif;
+    display: inline-block;
+    max-width: 184px;
+    width: 100%;
+}
+.editor-tools-page .btn-edit.bg-black {
+    background-color: #000;
+    color: #fff;
+}
+.editor-tools-page .preview-info-box {
+    display: block;
+    margin-left: auto;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 0.5625rem 1.4375rem 0 rgb(0 0 0 / 3%);
+    padding: 19.2px;
+    max-width: 252px;
+    width: 100%;
+}
+.editor-tools-page .preview-info-box h4 {
+    font-size: 15px;
+    color: #737373;
+    font-family: 'OmnesMedium', sans-serif;
+    margin-bottom: 3px;
+}
+.editor-tools-page .btn-edit-head {
+    border-radius: 5px;
+    height: 50px;
+    line-height: 48px;
+    border: 0.125rem solid;
+    padding: 0 15px;
+    font-size: 17px;
+    font-family: 'MYRIADPRO-REGULAR', sans-serif;
+    display: inline-block;
+}
+.editor-tools-page .btn-edit-head.green {
+    color: #fff;
+    border-color: #44c100;
+    background-color: #44c100;
+}
+
+.cover-preview-page-header-front-back {
+    width: 335px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0;
+    height: 100%;
+    margin-top: 13px;
+}

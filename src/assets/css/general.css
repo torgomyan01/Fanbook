@@ -1,0 +1,659 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: 'MyriadPro-Light';
+    src: url('../fonts/MyriadPro-Light/MyriadPro-Light.eot')
+            format('embedded-opentype'),
+        url('../fonts/MyriadPro-Light/MyriadPro-Light.woff') format('woff'),
+        url('../fonts/MyriadPro-Light/MyriadPro-Light.ttf') format('truetype');
+
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'MYRIADPRO-REGULAR';
+    src: url('../fonts/MYRIADPRO-REGULAR/MYRIADPRO-REGULAR.eot')
+            format('embedded-opentype'),
+        url('../fonts/MYRIADPRO-REGULAR/MYRIADPRO-REGULAR.woff') format('woff'),
+        url('../fonts/MYRIADPRO-REGULAR/MYRIADPRO-REGULAR.ttf')
+            format('truetype');
+
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'MyriadProLightItalic';
+    src: url('../fonts/MyriadProLightItalic/MyriadProLightItalic.eot')
+            format('embedded-opentype'),
+        url('../fonts/MyriadProLightItalic/MyriadProLightItalic.woff')
+            format('woff'),
+        url('../fonts/MyriadProLightItalic/MyriadProLightItalic.ttf')
+            format('truetype');
+
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MyriadProSemibold';
+    src: url('../fonts/MyriadProSemibold/MyriadProSemibold.eot?#iefix')
+            format('embedded-opentype'),
+        url('../fonts/MyriadProSemibold/MyriadProSemibold.woff') format('woff'),
+        url('../fonts/MyriadProSemibold/MyriadProSemibold.ttf')
+            format('truetype');
+
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Omnet-Light';
+    src: url('../fonts/Omnet-Light/Omnes Light.eot?#iefix')
+            format('embedded-opentype'),
+        url('../fonts/Omnet-Light/Omnes Light.woff') format('woff'),
+        url('../fonts/Omnet-Light/Omnes Light.ttf') format('truetype');
+
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'OmnesBoldRegular';
+    src: url('../fonts/OmnesBoldRegular/OmnesBoldRegular.eot?#iefix')
+            format('embedded-opentype'),
+        url('../fonts/OmnesBoldRegular/OmnesBoldRegular.woff') format('woff'),
+        url('../fonts/OmnesBoldRegular/OmnesBoldRegular.ttf') format('truetype');
+
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'OmnesMedium';
+    src: url('../fonts/Omnes-Medium/Omnes-Medium.eot?#iefix')
+            format('embedded-opentype'),
+        url('../fonts/Omnes-Medium/Omnes-Medium.woff') format('woff'),
+        url('../fonts/Omnes-Medium/Omnes-Medium.ttf') format('truetype');
+
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'OpenSans-Regular';
+    src: url('../fonts/opensans/OpenSans-Regular.eot?#iefix')
+            format('embedded-opentype'),
+        url('../fonts/opensans/OpenSans-Regular.woff') format('woff'),
+        url('../fonts/opensans/OpenSans-Regular.ttf') format('truetype');
+
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'OpenSans-Semibold';
+    src: url('../fonts/opensans/OpenSans-Semibold.eot?#iefix')
+            format('embedded-opentype'),
+        url('../fonts/opensans/OpenSans-Semibold.woff') format('woff'),
+        url('../fonts/opensans/OpenSans-Semibold.ttf') format('truetype');
+
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Roboto-Regular';
+    src: url('../fonts/roboto/Roboto-Regular.eot?#iefix')
+            format('embedded-opentype'),
+        url('../fonts/roboto/Roboto-Regular.woff') format('woff'),
+        url('../fonts/roboto/Roboto-Regular.ttf') format('truetype');
+
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Roboto-Bold';
+    src: url('../fonts/roboto/Roboto-Bold.eot?#iefix')
+            format('embedded-opentype'),
+        url('../fonts/roboto/Roboto-Bold.woff') format('woff'),
+        url('../fonts/roboto/Roboto-Bold.ttf') format('truetype');
+
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Roboto-Light';
+    src: url('../fonts/roboto/Roboto-Light.eot?#iefix')
+            format('embedded-opentype'),
+        url('../fonts/roboto/Roboto-Light.woff') format('woff'),
+        url('../fonts/roboto/Roboto-Light.ttf') format('truetype');
+
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Roboto-Medium';
+    src: url('../fonts/roboto/Roboto-Medium.eot?#iefix')
+            format('embedded-opentype'),
+        url('../fonts/roboto/Roboto-Medium.woff') format('woff'),
+        url('../fonts/roboto/Roboto-Medium.ttf') format('truetype');
+
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'OpenSans-Light';
+    src: url('../fonts/opensans/OpenSans-Light.eot?#iefix')
+            format('embedded-opentype'),
+        url('../fonts/opensans/OpenSans-Light.woff') format('woff'),
+        url('../fonts/opensans/OpenSans-Light.ttf') format('truetype');
+
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Omnes-Regular';
+    src: url('../fonts/Omnes-Regular/Omnes Regular Regular.eot?#iefix')
+            format('embedded-opentype'),
+        url('../fonts/Omnes-Regular/Omnes Regular Regular.woff') format('woff'),
+        url('../fonts/Omnes-Regular/Omnes Regular Regular.ttf')
+            format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Montserrat-Regular';
+    src: url('../fonts/montserrat/Montserrat-Regular.eot?#iefix')
+            format('embedded-opentype'),
+        url('../fonts/montserrat/Montserrat-Regular.woff') format('woff'),
+        url('../fonts/montserrat/Montserrat-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Omnes Regular';
+    src: url('//db.onlinewebfonts.com/t/0c098ce56cd105e2723ca6b42ca24407.eot');
+    src: url('//db.onlinewebfonts.com/t/0c098ce56cd105e2723ca6b42ca24407.eot?#iefix')
+            format('embedded-opentype'),
+        url('//db.onlinewebfonts.com/t/0c098ce56cd105e2723ca6b42ca24407.woff2')
+            format('woff2'),
+        url('//db.onlinewebfonts.com/t/0c098ce56cd105e2723ca6b42ca24407.woff')
+            format('woff'),
+        url('//db.onlinewebfonts.com/t/0c098ce56cd105e2723ca6b42ca24407.ttf')
+            format('truetype'),
+        url('//db.onlinewebfonts.com/t/0c098ce56cd105e2723ca6b42ca24407.svg#Omnes Regular')
+            format('svg');
+}
+
+body {
+    font-family: 'Omnes Regular';
+    line-height: 1;
+    overflow-x: hidden;
+    font-size: 16px;
+}
+
+input,
+textarea,
+select {
+}
+.tdu {
+    text-decoration: underline !important;
+}
+input:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.font-light {
+    font-weight: 300;
+}
+
+.font-regular {
+    font-weight: 400;
+}
+
+.font-medium {
+    font-weight: 500;
+}
+
+.font-semi-bold {
+    font-weight: 600;
+}
+
+.font-bold {
+    font-weight: 700;
+}
+
+.font-extra-bold {
+    font-weight: 800;
+}
+
+.table-div {
+    display: table;
+    width: 100%;
+}
+
+.table-div-cell {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+img {
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+.vertical-top {
+    vertical-align: top;
+}
+
+.vertical-bottom {
+    vertical-align: bottom;
+}
+
+.vertical-middle {
+    vertical-align: middle;
+}
+
+.db {
+    display: block;
+}
+
+.dn {
+    display: none !important;
+}
+
+.dib {
+    display: inline-block !important;
+}
+
+.pr {
+    position: relative;
+}
+
+.pa {
+    position: absolute;
+}
+
+.ps {
+    position: static;
+}
+.cp {
+    cursor: pointer;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+::-ms-clear {
+    display: none;
+}
+
+:focus {
+    outline: none !important;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+ul {
+    padding-left: 0;
+    list-style: none;
+}
+
+textarea {
+    resize: none;
+}
+.fs9 {
+    font-size: 9px;
+}
+
+.fs12 {
+    font-size: 12px;
+}
+
+.fs13 {
+    font-size: 13px;
+}
+
+.fs14 {
+    font-size: 14px !important;
+}
+
+.fs15 {
+    font-size: 15px;
+}
+
+.fs16 {
+    font-size: 16px;
+}
+
+.fs17 {
+    font-size: 17px;
+}
+
+.fs18 {
+    font-size: 18px;
+}
+
+.fs19 {
+    font-size: 19px !important;
+}
+
+.fs20 {
+    font-size: 20px;
+}
+
+.fs21 {
+    font-size: 21px !important;
+}
+
+.fs22 {
+    font-size: 22px !important;
+}
+
+.fs23 {
+    font-size: 23px;
+}
+
+.fs24 {
+    font-size: 24px;
+}
+
+.fs25 {
+    font-size: 25px !important;
+}
+
+.fs26 {
+    font-size: 26px !important;
+}
+
+.fs27 {
+    font-size: 27px;
+}
+
+.fs28 {
+    font-size: 28px;
+}
+
+.fs29 {
+    font-size: 29px;
+}
+
+.fs30 {
+    font-size: 30px;
+}
+.fs35 {
+    font-size: 35px;
+}
+.fs34 {
+    font-size: 34px;
+}
+
+.fs38 {
+    font-size: 38px;
+}
+.fs40 {
+    font-size: 40px;
+}
+
+.fs44 {
+    font-size: 44px;
+}
+
+.fs45 {
+    font-size: 45px;
+}
+
+.fs48 {
+    font-size: 48px;
+}
+
+.fs50 {
+    font-size: 50px;
+}
+.fs70 {
+    font-size: 70px;
+}
+
+.fs76 {
+    font-size: 76px;
+}
+
+.fs114 {
+    font-size: 114px;
+}
+.lh-12 {
+    line-height: 1.2;
+}
+.lh-13 {
+    line-height: 1.3;
+}
+.lh-14 {
+    line-height: 1.4;
+}
+.w-68 {
+    width: 68%;
+}
+.f-omnesMedium {
+    font-family: 'OmnesMedium';
+}
+.f-Omneslight {
+    font-family: 'Omnet-Light';
+}
+.f-myriadproreg {
+    font-family: 'MYRIADPRO-REGULAR';
+}
+.f-myriadprolight {
+    font-family: 'MyriadPro-Light';
+}
+.f-myriadproSemibold {
+    font-family: 'MyriadProSemibold' !important;
+}
+.w-26 {
+    width: 26%;
+}
+.w-48 {
+    width: 48%;
+}
+.w-30 {
+    width: 30%;
+}
+.w-22 {
+    width: 22%;
+}
+.w-15 {
+    width: 15%;
+}
+.w-81 {
+    width: 81%;
+}
+i,
+em,
+.italic {
+    font-style: italic;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+.ver-top-box {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.vertical-middle {
+    vertical-align: middle;
+}
+a {
+    text-decoration: none !important;
+}
+.trans {
+    transition: 0.3s;
+}
+.mb-60 {
+    margin-bottom: 3.75rem;
+}
+.mb-40 {
+    margin-bottom: 40px;
+}
+
+.mb-100 {
+    margin-bottom: 6.25rem;
+}
+.oh {
+    overflow: hidden;
+}
+.c-white {
+    color: #ffffff !important;
+}
+.c-red {
+    color: #b12029 !important;
+}
+.bgc-red {
+    background-color: #b12029 !important;
+}
+.bgc-lred {
+    background-color: rgba(177, 32, 41, 0.4);
+}
+.bgc-blue {
+    background-color: #032e6d !important;
+}
+.bgc-lblue {
+    background-color: rgba(3, 46, 109, 0.7);
+}
+.bgc-black {
+    background-color: #000000 !important;
+}
+.c-blue {
+    color: #0079ff !important;
+}
+.c-dblue {
+    color: #1479fc !important;
+}
+.c-black {
+    color: #000000;
+}
+.mr-0 {
+    margin-right: 0;
+}
+.w-48per {
+    width: 48% !important;
+}
+.mr-4per {
+    margin-right: 4%;
+}
+.mr-2per {
+    margin-right: 2%;
+}
+.w-85per {
+    width: 85%;
+}
+.w-13per {
+    width: 13%;
+}
+.mr-80 {
+    margin-right: 80px;
+}
+
+.my-col {
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+.my-row {
+    margin-right: -10px;
+    margin-left: -10px;
+}
+.lh-0 {
+    line-height: 0;
+}
+.lh-07 {
+    line-height: 0.7;
+}
+.lh-1 {
+    line-height: 1;
+}
+.lh-12 {
+    line-height: 1.2;
+}
+.modal {
+    position: absolute;
+    overflow: auto;
+}
+.btn {
+    display: inline-block;
+    text-align: center;
+    font-size: 17px;
+    border-radius: 5px;
+    font-family: 'MYRIADPRO-REGULAR';
+    line-height: 40px;
+    height: 40px;
+    padding: 0 10px;
+}
+.btn:focus,
+.btn.focus {
+    outline: 0;
+    box-shadow: none;
+}
+::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    color: #000000;
+}
+::-moz-placeholder {
+    /* Firefox 19+ */
+    color: #000000;
+}
+:-ms-input-placeholder {
+    /* IE 10+ */
+    color: #000000;
+}
+.dropdown-item.active,
+.dropdown-item:active {
+    background-color: inherit;
+    color: inherit;
+}
+.error-message {
+    position: absolute;
+    left: 2rem;
+    color: darkred;
+    font-weight: bold;
+}
+.spinner-border {
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    vertical-align: text-bottom;
+    border: 0.15rem solid currentColor;
+    border-right-color: transparent;
+    border-radius: 50%;
+    animation: spinner-border 0.75s linear infinite;
+    margin-left: 0.3rem;
+    margin-bottom: 0.1rem;
+}
+.overflow-y-scroll {
+    overflow-y: scroll;
+}
+#edit-folder-modal .overflow-y-scroll {
+    height: calc(100vh - 300px) !important;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+.images-scroll-list {
+    overflow-x: scroll;
+}
+.images-scroll-list::-webkit-scrollbar {
+    display: none;
+}
+.delete-folder {
+    margin-right: auto;
+    cursor: pointer;
+}

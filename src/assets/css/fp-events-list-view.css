@@ -1,0 +1,413 @@
+.header-search-event-bar {
+    display: flex;
+    align-items: center;
+    width: 18.75rem;
+    height: 2.5rem;
+    border-radius: 0.625rem;
+    border: solid 0.0625rem #dedede;
+    background-color: #ffffff;
+    padding-left: 1.25rem;
+}
+.end-block-event-list {
+    position: absolute;
+    right: 10px;
+    top: 12px;
+    display: flex;
+    justify-content: end;
+    align-content: center;
+    flex-direction: column;
+    height: 170px;
+}
+.header-search-event-bar > input {
+    border: none !important;
+    outline: none !important;
+    font-family: 'MYRIADPRO-REGULAR', serif;
+    font-size: 1.125rem;
+    font-weight: normal;
+    line-height: 1.6;
+    color: #000000;
+    width: 100%;
+    padding-right: 5px;
+}
+.my-event-page-event-images {
+    width: 70px;
+    height: 70px;
+    border-radius: 5px;
+    margin-right: 5px;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    transition: 0.3s;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.my__event__canvas__album {
+    /*position: absolute;*/
+    /*display: block;*/
+    /*object-fit: cover;*/
+    /*!**!bottom: 0;*!*/
+    /*!*right: 0;*/
+}
+.my-event-page-event-images:hover {
+    box-shadow: 2px 2px 5px #8d8d8d;
+}
+
+.public-private-status-event {
+    cursor: context-menu;
+    padding: 5px 10px;
+    color: #fff;
+}
+.bgc-green {
+    background: #0f9d58;
+}
+.event-block {
+    width: 100%;
+    border-radius: 0.625rem;
+    box-shadow: 0 0.1875rem 0.375rem 0 rgb(0 0 0 / 16%);
+    background-color: #ffffff;
+    padding: 0.9375rem 1.5625rem 1.5625rem 1.5625rem;
+    margin-bottom: 1.875rem;
+}
+.event-header {
+    padding-bottom: 0.625rem;
+    margin-bottom: 1.25rem;
+    border-bottom: 0.125rem solid #dedede;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.event-header-title {
+    font-size: 1.5rem;
+    line-height: 1.2;
+    letter-spacing: 0.03rem;
+    color: #000000;
+    margin-bottom: 0;
+}
+.event-spinner {
+    margin-left: 10px;
+    margin-right: 5px;
+}
+.spinner-text {
+    font-size: 1rem;
+}
+.empty-events {
+    font-family: 'MYRIADPRO-REGULAR';
+    font-size: 1.375rem;
+    line-height: 1.31;
+    letter-spacing: 0.0275rem;
+    color: #000000;
+}
+.empty-events > a {
+    color: #b12029;
+    text-decoration: underline !important;
+}
+.events-list > li {
+    display: flex;
+    align-items: start;
+    width: 100%;
+    border: solid 0.0625rem #e1e1e1;
+    background-color: #ffffff;
+    padding: 1.5625rem 0.9375rem;
+    justify-content: start;
+    position: relative;
+}
+
+.event-img {
+    width: 9.375rem;
+    height: 9.375rem;
+    border-radius: 0.3125rem;
+    margin-right: 15px;
+    /* margin-top: 1rem; */
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.event-img video {
+    width: auto !important;
+    height: 100% !important;
+}
+.modal-video-view {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.modal-video-view video {
+    width: 100%;
+}
+.event-img .fa-play-circle:hover {
+    box-shadow: 1px 2px 7px 0 #0000008f;
+}
+.event-info {
+    margin-right: 5.125rem;
+    width: 400px;
+}
+.event-info-title {
+    font-family: 'OmnesMedium', sans-serif;
+    font-size: 1.5rem;
+    line-height: 0.92;
+    letter-spacing: 0.03rem;
+    color: #010101;
+    margin-bottom: 0.6875rem;
+}
+.event-info-calendar {
+    font-family: 'MYRIADPRO-REGULAR', sans-serif;
+    font-size: 1.125rem;
+    line-height: 1;
+    letter-spacing: 0.0338rem;
+    text-align: left;
+    color: #8c8c8c;
+    margin-bottom: 0.625rem;
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-top: 15px;
+}
+.event-info-location {
+    font-family: 'MYRIADPRO-REGULAR';
+    font-size: 1.125rem;
+    line-height: 1;
+    letter-spacing: 0.0338rem;
+    color: #8c8c8c;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.event-info-gallery {
+    font-family: 'MYRIADPRO-REGULAR';
+    font-size: 1.125rem;
+    line-height: 1;
+    letter-spacing: 0.0338rem;
+    color: #8c8c8c;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.event-info-calendar span,
+.event-info-location span,
+.event-info-gallery span {
+    width: 25px;
+}
+
+.events-gallery-list {
+    width: 600px;
+    display: flex;
+    max-width: 37.5rem;
+    flex-wrap: wrap;
+    /*margin-right: 1.5625rem;*/
+    margin-top: 1rem;
+}
+.events-gallery-list > li {
+    margin-right: 0.3125rem;
+    margin-bottom: 0.3125rem;
+}
+.events-gallery-list > li > img {
+    width: 4.375rem;
+    height: 4.375rem;
+    border-radius: 0.3125rem;
+}
+.btn-open-gallery {
+    font-family: 'MYRIADPRO-REGULAR', serif;
+    font-size: 18px;
+    color: #b12029;
+    border: none;
+    padding: 0;
+    background: transparent;
+    margin-right: 3.125rem;
+    margin-top: 65px !important;
+}
+.MuiPickersToolbar-toolbar {
+    background-color: #b12029 !important;
+}
+.btn-more {
+    font-family: 'OmnesMedium', sans-serif;
+    font-size: 1.5rem;
+    line-height: 0.8;
+    letter-spacing: 0.03rem;
+    color: #0084ff;
+    border: none;
+    padding: 0;
+    background: transparent;
+    margin-top: 4rem;
+}
+.event-info-file {
+    width: 41%;
+    display: flex;
+    align-items: flex-start;
+    font-family: 'MYRIADPRO-REGULAR';
+    font-size: 1.125rem;
+    line-height: 0.94;
+    letter-spacing: 0.0338rem;
+    color: #8c8c8c;
+}
+.events-pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn-pagination.disabled {
+    opacity: 0.6;
+}
+.events-pagination-pages {
+    margin-left: 1.25rem;
+    margin-right: 1.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+}
+
+.events-pagination-pages > input {
+    width: 3.5rem !important;
+    height: 2.6875rem !important;
+    border-radius: 0.3125rem !important;
+    border: solid 0.0625rem #d9d9d9 !important;
+    background-color: #ffffff !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'MyriadProSemibold';
+    font-size: 1.4375rem !important;
+    line-height: 1.57;
+    letter-spacing: 0.0431rem;
+    text-align: center;
+    color: #000000;
+    margin-right: 0.9375rem;
+    padding: 0 !important;
+}
+.events-pagination-pages > p {
+    font-family: 'MYRIADPRO-REGULAR';
+    font-size: 1.3125rem;
+    line-height: 1.71;
+    letter-spacing: 0.0394rem;
+    color: #000000;
+    margin-bottom: 0;
+}
+.btn-pagination {
+    border: none;
+    background: transparent;
+    font-size: 2.1875rem;
+    line-height: 1;
+    width: auto;
+    padding: 0;
+}
+.btn-floating-add {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    background: #b12029;
+    color: #ffffff;
+    font-size: 1.875rem;
+    position: fixed;
+    right: 16px;
+    top: unset;
+    bottom: 50px;
+    z-index: 1;
+}
+
+.wrapper-1447 {
+    max-width: 90.4375rem;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.my-event-page-d-m {
+    position: absolute;
+    right: 5px;
+    top: 0;
+}
+.my-event-page-d-m .btn {
+    border: 0 !important;
+    background: transparent !important;
+    color: #343a40 !important;
+}
+.my-event-page-d-m .btn:hover {
+    background: transparent !important;
+    color: #343a40;
+}
+.my-event-page-d-m .btn:active {
+    background: transparent !important;
+    color: #343a40 !important;
+}
+.my-event-page-d-m .btn:focus {
+    box-shadow: unset !important;
+    outline: none !important;
+}
+
+@media only screen and (max-width: 1300px) {
+    .events-gallery-list {
+        width: 450px;
+    }
+}
+
+@media only screen and (max-width: 1300px) {
+    .events-gallery-list {
+        width: 350px;
+    }
+}
+@media only screen and (max-width: 1199px) {
+    .btn-floating-add {
+        right: 16px;
+        top: unset;
+        bottom: 50px;
+        z-index: 1;
+    }
+}
+@media (max-width: 1000px) {
+    .events-list > li {
+        justify-content: start;
+        align-items: start;
+        flex-wrap: wrap;
+        position: relative;
+        flex-direction: column;
+    }
+    .event-info-file {
+        margin-left: 0 !important;
+    }
+    .events-gallery-list {
+        width: 100% !important;
+        justify-content: start !important;
+    }
+    .event-info-file {
+        width: 100%;
+    }
+}
+.event-details-page .makeStyles-formControl-1 {
+    margin: 0 8px;
+}
+
+@media (max-width: 576px) {
+    .header-block-event-lists {
+        flex-wrap: wrap !important;
+        justify-content: center !important;
+    }
+    .header-block-event-lists .header-search-event-bar {
+        margin-top: 15px;
+    }
+    .event-info {
+        margin-right: 0;
+        margin-top: 1rem;
+    }
+    .event-block {
+        padding: 10px 0 10px 0;
+    }
+}
+
+.container-fluid .fix-past-events {
+    display: flex;
+    align-items: flex-end;
+    height: 80px;
+}

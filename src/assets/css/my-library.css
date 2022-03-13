@@ -1,0 +1,88 @@
+.list-view .all-events_block,
+.list-view .recent-event-block {
+    box-shadow: 0px 3px 7px 0px rgb(0 0 0 / 16%);
+    border-radius: 0.625rem;
+    background-color: #ffffff;
+    padding: 2.25rem 1.6875rem 3.125rem;
+    margin-top: 30px;
+}
+.list-view .recent-event-block {
+    margin-bottom: 2.5rem;
+}
+.my-library {
+    background: #f8f8f8;
+}
+.list-view-section .recent-event-block .img-part {
+    border-radius: 0.625rem;
+    border: 0.0625rem solid #e1e1e1;
+    height: 13.125rem;
+    max-width: 14.5625rem;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    margin-right: 2.5rem;
+}
+
+.list-view-section .recent-event-block .recent-event_txt {
+    color: rgba(0, 0, 0, 0.8);
+    margin-bottom: 2.0625rem;
+}
+.list-view-section .library-btn {
+    max-width: 10.8125rem;
+    width: 100%;
+    background-color: #b12029;
+    color: #ffffff;
+    margin-right: 1.25rem;
+}
+.list-view-section .event-btn {
+    border: 1px solid #cacaca;
+    color: #0084ff;
+    max-width: 10.8125rem;
+    width: 100%;
+}
+.my-library .folder-section {
+    border-bottom: 0;
+    padding-bottom: 0;
+    padding-top: 0;
+}
+.list-view .all-events_block,
+.list-view .recent-event-block {
+    box-shadow: 0px 3px 7px 0px rgb(0 0 0 / 16%);
+    border-radius: 0.625rem;
+    background-color: #ffffff;
+    padding: 2.25rem 1.6875rem 3.125rem;
+    margin-bottom: 50px;
+}
+.my-library .scroll-horizontal {
+    max-height: unset;
+    overflow: unset;
+}
+
+.my-library .trans .all-event-user {
+    max-width: 100px;
+    width: 100%;
+    background-color: #f2f2f2;
+    border-radius: 0.3125rem;
+    height: 6.25rem;
+    line-height: 3.25rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+}
+.my-library .trans .item {
+    cursor: pointer;
+}
+.my-library .trans li > * {
+    transition: 0.3s;
+}
+.deleted-albums {
+    font-size: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.img-box-my-library {
+    border: 1px solid #e1e1e1;
+    color: #0084ff;
+    font-size: 20px;
+}

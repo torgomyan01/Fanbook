@@ -1,0 +1,78 @@
+.login-block {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    padding: 0 1.25rem;
+}
+
+.bg-img {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.go-back-txt {
+    color: #ffffff;
+    font-size: 1.5rem;
+    font-weight: 500;
+    position: absolute;
+    top: 2.93rem;
+    right: 2.93rem;
+    cursor: pointer;
+}
+
+.login-block .login-box {
+    max-width: 23.75rem;
+    width: 100%;
+    border-radius: 5px;
+    background-color: #ffffff;
+    padding: 2.87rem 2.5rem 2.5rem;
+    position: relative;
+    text-align: center;
+}
+.login-block .login-box .logo {
+    display: inline-block;
+    margin-bottom: 1.87rem;
+}
+.form-group {
+    margin-bottom: 0.937rem;
+}
+.form-group label,
+.input-title-no {
+    font-size: 1rem;
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 0.562rem;
+    display: block;
+    text-align: left;
+}
+.MuiAvatar-colorDefault i,
+.MuiAvatar-colorDefault svg {
+    color: #fff !important;
+}
+
+.login-block .form-group input[type='text'],
+.form-group input[type='password'] {
+    height: 2.812rem;
+    border-radius: 5px;
+    border: 1px solid #dadada;
+    padding: 0 0.93rem;
+    width: 100%;
+}
+.checkout-big-btn.btn.red,
+.checkout-btn.btn.red {
+    color: #ffffff;
+    border-color: #b12029;
+    background-color: #b12029;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 100% !important;
+}
+.gray-link {
+    font-size: 1rem;
+    color: #696c74;
+    font-weight: 300;
+}

@@ -1,0 +1,327 @@
+.check-item label:before,
+.radio-item label:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 2px solid #bebebe;
+    height: 1.25rem;
+    width: 1.25rem;
+}
+.canvas__album {
+    position: absolute;
+    display: block;
+    object-fit: cover;
+    bottom: 0;
+    right: 0;
+}
+.radio-item label:before {
+    border-radius: 50%;
+}
+.check-item,
+.radio-item {
+    padding-right: 0.9375rem;
+}
+.check-item,
+.radio-item:not(:first-child) {
+    padding-left: 0.9375rem;
+}
+
+.check-item label,
+.radio-item label {
+    font-size: 1rem;
+    color: #000000;
+    padding-left: 1.625rem;
+    position: relative;
+    line-height: 1.25rem;
+    cursor: pointer;
+}
+
+.check-item.b-left {
+    border-left: 2px solid #dedede;
+}
+.check-item input[type='checkbox'],
+.radio-item input[type='radio'] {
+    display: none;
+}
+.check-item label:before,
+.radio-item label:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 2px solid #bebebe;
+    height: 1.25rem;
+    width: 1.25rem;
+}
+.radio-item label:before {
+    border-radius: 50%;
+}
+.check-item label:before {
+    border-radius: 0.1875rem;
+}
+
+.radio-item label:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0.4375rem;
+    margin: auto;
+    height: 0.375rem;
+    width: 0.375rem;
+    background-color: #0084ff;
+    border-radius: 50%;
+    display: none;
+}
+.check-item label:after {
+    content: '\f078';
+    position: absolute;
+    font-family: 'Font Awesome 5 Pro';
+    font-weight: 900;
+    color: #ffffff;
+    left: 2px;
+    top: 0;
+    bottom: 0;
+    display: none;
+}
+.check-item input[type='checkbox']:checked + label:after,
+.radio-item input[type='radio']:checked + label:after {
+    display: block;
+}
+.check-item input[type='checkbox']:checked + label:before {
+    background-color: #0084ff;
+    border: transparent;
+}
+.check-item,
+.radio-item {
+    padding-right: 0.9375rem;
+}
+.library-grid .main-form {
+    background-color: #f8f8f8;
+}
+.serp-page .back-box {
+    padding: 1.4375rem 2rem 1.6875rem;
+    border-bottom: 1px solid #e1e1e1;
+}
+.serp-page .main-form {
+    padding: 1.875rem 0 0;
+    border-width: 0;
+}
+.serp-page .search-box {
+    max-width: 87.5rem;
+}
+.serp-page .content-section {
+    padding: 2.8125rem 2.1875rem 1.875rem;
+    background-color: #ffffff;
+}
+.serp-page .fa-search {
+    color: #000000;
+}
+.serp-section .sum-item {
+    padding: 0.2125rem 0.625rem;
+    border-radius: 0.8rem;
+    background-color: #ececec;
+    margin-bottom: 0.75rem;
+    display: inline-block;
+    color: rgba(0, 0, 0, 0.5);
+}
+.serp-section .sum-txt {
+    color: rgba(0, 0, 0, 0.5);
+}
+.serp-section .nav-tabs .nav-item {
+    margin-bottom: 0;
+}
+.serp-section .nav-tabs .nav-item.nav-link.active {
+    border-bottom: 3px solid #b12029;
+    margin-bottom: -1px;
+}
+.serp-section .nav-tabs .nav-item.nav-link.active .sum-item {
+    background-color: #b3252e;
+    color: #ffffff;
+}
+.serp-section .event-photo-block {
+    padding-top: 1.25rem;
+}
+.serp-section .form-box {
+    margin-bottom: 2.8125rem;
+}
+
+.main-form .back-txt {
+    white-space: nowrap;
+}
+.previous-orders .folder-section .folder-box {
+    margin-bottom: 1.75rem;
+}
+/*------------------------------------------------------------ folder-view------------------------------------------------*/
+.folder-view header {
+    padding: 1.5625rem 2rem;
+}
+
+.folder-view .main-form {
+    padding: 0;
+}
+.folder-view .folder-part {
+    padding: 3.125rem 0;
+}
+.folder-part .total-box {
+    margin-right: auto;
+    margin-left: 0;
+}
+
+.folder-part .total-box {
+    border-radius: 3px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    padding: 0.687rem 0.5625rem 1.0625rem 1.125rem;
+    max-width: 14.375rem;
+    margin-left: 0;
+    margin-right: auto;
+    margin-top: 1.25rem;
+}
+.folder-part .event-btn {
+    border-radius: 5px;
+    border: 1px solid #cacaca;
+    display: inline-block;
+    font-family: 'MyriadProSemibold';
+    text-align: center;
+    padding: 0 0.3125rem;
+    position: relative;
+    cursor: pointer;
+}
+.folder-part .event-btn {
+    height: 2.5rem;
+    line-height: 2.375rem;
+    max-width: 12.375rem;
+    width: 100%;
+}
+.folder-part .folder-box-right {
+    max-width: 16.875rem;
+    margin-left: auto;
+    margin-top: 3.125rem;
+}
+.folder-part .library-section .box {
+    border-radius: 10px;
+    height: 3.125rem;
+    width: 3.125rem;
+    min-width: 3.125rem;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: center center !important;
+}
+.folder-part .library-section {
+    padding: 0;
+}
+.folder-view .folder-section {
+    border-bottom: 0;
+}
+.folder-section .folder-box {
+    padding-bottom: 0.625rem;
+    border-bottom: 0.125rem solid #dedede;
+    margin-bottom: 3.75rem;
+}
+
+.folder-view .content-section .see-btn:hover,
+.folder-view .content-section .see-btn:active {
+    background-color: #b12029;
+}
+.folder-view .content-section .see-btn:hover i,
+.folder-view .content-section .see-btn:active i {
+    color: #ffffff;
+}
+.folder-view .folder-section {
+    padding-top: 3.125rem;
+    border-top: 1px solid #e6e6e6;
+}
+.folder-view .serp-section .folder-section {
+    border-top: none;
+}
+.content-box .price-box {
+    background-color: #ffffff;
+    padding: 8px 6px;
+    border-radius: 3px;
+    font-family: 'MyriadProSemibold';
+    color: #393939;
+    font-size: 16px;
+}
+.content-box .heart-box {
+    border-radius: 50%;
+    height: 2.125rem;
+    width: 2.125rem;
+    background-color: #ffffff;
+    line-height: 2.125rem;
+    text-align: center;
+    color: #fc5f51;
+}
+.content-section .edit-btn,
+.content-section .preview-btn {
+    line-height: 2.06215rem;
+    height: 2.1875rem;
+    width: 48%;
+    position: relative;
+}
+.select-book-section .event-btn,
+.folder-section .event-btn,
+.folder-part .event-btn,
+.tab-line-section .event-btn,
+.content-section .bought-btn,
+.content-section .buy-btn,
+.content-section .see-btn,
+.content-section .edit-btn,
+.content-section .preview-btn,
+.library-section .event-btn {
+    border-radius: 5px;
+    border: 1px solid #cacaca;
+    display: inline-block;
+    font-family: 'MyriadProSemibold';
+    text-align: center;
+    padding: 0 0.3125rem;
+    position: relative;
+}
+.content-section .bought-btn,
+.content-section .buy-btn,
+.content-section .preview-btn,
+.content-section .see-btn {
+    line-height: 2.06215rem;
+    height: 2.1875rem;
+    width: 48%;
+}
+.content-section .see-btn {
+    min-width: 7.8125rem;
+    color: #b12029;
+}
+.content-section .see-btn:hover,
+.content-section .see-btn:active {
+    background-color: #0084ff;
+    color: #ffffff;
+}
+.folder-view .content-section .see-btn:hover,
+.folder-view .content-section .see-btn:active {
+    background-color: #b12029;
+}
+.folder-view .content-section .see-btn:hover i,
+.folder-view .content-section .see-btn:active i {
+    color: #ffffff;
+}
+.no-result-h1 {
+    width: 100%;
+    text-align: center;
+    margin: 100px 0;
+    font-weight: 700;
+    color: #00000057;
+}
+
+.album-public-private {
+    position: absolute;
+    right: 78px;
+    top: 22px;
+    color: #b120299c;
+    cursor: pointer;
+    font-size: 14px;
+}
+.modal-bg-blur-effect {
+    display: block !important;
+    background: rgb(0 0 0 / 10%) !important;
+    backdrop-filter: blur(10px) !important;
+    transition: 0.3s;
+}

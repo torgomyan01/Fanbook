@@ -1,0 +1,134 @@
+.previous-orders .list-view-section {
+    padding: 16px 0 100px;
+}
+.previous-orders .list-view-section .recent-event-block {
+    -webkit-box-shadow: 0 3px 7px 0 rgb(0 0 0 / 16%);
+    box-shadow: 0 3px 7px 0 rgb(0 0 0 / 16%);
+    border-radius: 0.625rem;
+    background-color: #ffffff;
+    padding: 2.25rem 1.6875rem 3.125rem;
+    margin-bottom: 50px;
+}
+.list-view .recent-event_title {
+    font-size: 24px;
+    padding-bottom: 9.04px;
+    border-bottom: 2px solid #dedede;
+    margin-bottom: 0;
+}
+.list-view-section .recent-event-block .img-part {
+    border-radius: 10px;
+    border: 1px solid #e1e1e1;
+    height: 210px;
+    max-width: 233px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    margin-right: 40px;
+}
+.list-view-section .recent-event-block .recent-event_txt {
+    color: rgba(0, 0, 0, 0.8);
+    margin-bottom: 33px;
+}
+.previous-orders .list-view-section .recent-event_txt {
+    color: rgba(0, 0, 0, 0.6);
+}
+.list-view-section .event-btn {
+    border: 0.0625rem solid #cacaca;
+    color: #0084ff;
+    max-width: 198px;
+    width: 100%;
+}
+.folder-section {
+    background-color: #ffffff;
+    padding: 54.992px 0 74.992px;
+    border-bottom: 1px solid #e6e6e6;
+    position: relative;
+}
+.folder-section.my-order {
+    box-shadow: 0 3px 7px 0 rgb(0 0 0 / 16%);
+    border-radius: 0.625rem;
+    background-color: #ffffff;
+    padding: 2.25rem 1.6875rem 3.125rem !important;
+    margin-bottom: 50px;
+}
+.previous-orders .folder-section {
+    padding: 0;
+    border-bottom: 0;
+}
+.folder-section .folder-box {
+    padding-bottom: 10px;
+    border-bottom: 2px solid #dedede;
+    margin-bottom: 60px;
+}
+.previous-orders .folder-section .folder-box {
+    margin-bottom: 28px;
+}
+.folder-section .form-box {
+    line-height: 20px;
+}
+.folder-section .folder-table {
+    border-collapse: separate;
+    border-spacing: 0 0.625em;
+}
+.previous-orders .folder-section .folder-table {
+    border-collapse: collapse;
+}
+
+.folder-section .folder-table tr {
+    border-radius: 0;
+    border: 1px solid #e1e1e1;
+    margin-bottom: 5px;
+}
+.folder-section .folder-table tr td {
+    padding: 12px 0px;
+    border-top: 0 solid #e1e1e1;
+    border-bottom: 0 solid #e1e1e1;
+    cursor: pointer;
+}
+.folder-section .folder-table tr td:first-child {
+    border-left: 0 solid #e1e1e1;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+    width: 30%;
+}
+.previous-orders .folder-section .folder-table tr td:first-child {
+    width: 40%;
+}
+.previous-orders .folder-section .folder-table tr td:last-child {
+    width: 22%;
+}
+.previous-orders .folder-section .folder-table tr td:nth-child(2) {
+    width: 38%;
+}
+.folder-section .scroll-horizontal {
+    max-height: 500px;
+    overflow: auto;
+}
+
+.previous-orders .added-section {
+    background-color: #eeeeee;
+    padding: 60px 0;
+}
+.search-event-page .featured-box,
+.search-event-page .added-box {
+    border-radius: 0.3125rem;
+    -webkit-box-shadow: 0rem 0.1875rem 1.4375rem 0rem rgb(0 0 0 / 10%);
+    box-shadow: 0rem 0.1875rem 1.4375rem 0rem rgb(0 0 0 / 10%);
+    cursor: pointer;
+    width: 100%;
+}
+.added-section .img-box {
+    min-height: 327px;
+}
+.added-section .txt-box,
+.featured-section .txt-box {
+    padding: 30px 30px 25px;
+    background: #fff;
+}
+
+@media only screen and (max-width: 767px) {
+    .added-section .event-txt,
+    .featured-section .event-txt {
+        white-space: pre-wrap;
+    }
+}

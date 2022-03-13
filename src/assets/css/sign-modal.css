@@ -1,0 +1,599 @@
+/*-----------------------------------------------------------------------sign-up-page--------------------------------------------------*/
+
+.disable-btn {
+    opacity: 0.5;
+    cursor: no-drop !important;
+}
+.sign-up-page {
+    font-family: 'OmnesMedium';
+}
+
+.sign-up-page header .nav-link {
+    color: #021d49;
+}
+.sign-up-page header {
+    padding: 1.75rem 0;
+}
+.form-section {
+    /*background-color: #0079ff;*/
+    min-height: calc(100vh - 90px);
+    padding: 3.125rem 0 4.375rem;
+}
+.form-section .signup-confirm,
+.form-section .form-block {
+    background-color: #ffffff;
+    width: 100%;
+    border-radius: 10px;
+    padding: 68px 70px 52px;
+    margin: auto;
+}
+.form-section .form-block {
+    max-width: 550px;
+}
+.form-section .signup-confirm {
+    max-width: 560px;
+}
+.form-section .form-block_txt {
+    color: #000000;
+    font-size: 17px;
+    margin-bottom: 53px;
+    font-family: 'MYRIADPRO-REGULAR';
+}
+.form-section .form-block_title {
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+.form-section .fb-btn,
+.form-section .google-btn {
+    border-radius: 5px;
+    line-height: 50px;
+    height: 50px;
+    font-family: 'MYRIADPRO-REGULAR';
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+}
+.form-section .google-btn {
+    background-color: #4080f7;
+    color: #ffffff;
+    font-size: 17px;
+}
+
+.form-section .fb-btn {
+    background-color: #e7e7e7;
+}
+.form-section .form-list {
+    margin-bottom: 25px;
+}
+.form-section .line-box {
+    border-bottom: 1px solid #dbdbdb;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.form-section .or-txt {
+    padding: 0 7px;
+    background-color: #ffffff;
+    position: relative;
+    font-size: 15px;
+    color: #000000;
+    top: 6px;
+}
+.form-section .form-block .form-item label {
+    font-size: 16px;
+}
+.sign-empaty .country-dropdown,
+.form-section .form-block .form-item input[type='text'] {
+    border-radius: 5px;
+    border: 1px solid #c9c9c9;
+    height: 43px;
+    padding: 0 15px;
+    width: 100%;
+    font-size: 1.125rem;
+}
+
+.form-section .form-block .form-item input::-webkit-input-placeholder {
+    /* Edge */
+    color: #000000;
+    font-family: 'OmnesMedium';
+}
+
+.form-section .form-block .form-item input:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: #000000;
+    font-family: 'OmnesMedium';
+}
+
+.form-section .form-block .form-item input::placeholder {
+    color: #000000;
+    font-family: 'OmnesMedium';
+}
+
+.sign-empaty .country-dropdown {
+    padding: 0 24px;
+}
+.form-section .form-block .form-item:not(:last-child) {
+    margin-bottom: 18px;
+}
+.form-section .form-block .form-item:last-child {
+    margin-bottom: 3.125rem;
+}
+.form-section .signup-btn {
+    border-radius: 0.3125rem;
+    text-align: center;
+    display: inline-block;
+    background-color: #b12029;
+    line-height: 3.125rem;
+    height: 3.125rem;
+    min-width: 13.25rem;
+
+    font-size: 1.0625rem;
+    color: #ffffff;
+    font-family: 'MYRIADPRO-REGULAR';
+}
+.form-section .signup-confirm_txt {
+    font-size: 1.0625rem;
+    font-family: 'MyriadPro-Light';
+    line-height: 1.3;
+}
+.form-section .signup-confirm_txt:not(:last-of-type) {
+    margin-bottom: 1.4rem;
+}
+.form-section .signup-confirm_txt:last-of-type {
+    margin-bottom: 3rem;
+}
+.sign-empaty .user-icon {
+    background-size: cover;
+    background-position: center;
+}
+.sign-empaty header .user-name {
+    font-family: 'OmnesMedium';
+    font-size: 22px;
+}
+.sign-empaty header .user-txt {
+    font-family: 'Omnes Regular';
+}
+.sign-empaty header .cond-list {
+    padding: 0 60px;
+}
+.sign-empaty header .cond-line {
+    height: 1px;
+    background-color: #707070;
+    width: 100%;
+}
+.sign-empaty header .check-btn,
+.sign-empaty header .round-btn {
+    height: 27px;
+    max-width: 27px;
+    width: 100%;
+    border-radius: 50%;
+}
+.sign-empaty header .round-btn {
+    background-color: #ffffff;
+    border: 6px solid #c4c4c6;
+}
+.sign-empaty header .check-btn {
+    background-color: #1479fc;
+    position: relative;
+}
+.sign-empaty header .check-btn:before {
+    content: '\f078';
+    position: absolute;
+    left: 0.375rem;
+    top: 0.375rem;
+    font-family: 'Font Awesome 5 Pro';
+    font-weight: 900;
+    color: #ffffff;
+}
+.sign-empaty header .user-icon {
+    box-shadow: none;
+}
+.sign-empaty header .round-btn.active {
+    border: 6px solid #1479fc;
+}
+.sign-empaty header {
+    padding: 12px 0;
+    border-bottom: 1px solid #e2e2e2;
+}
+.sign-empaty .form-section {
+    background-color: #ffffff;
+}
+.sign-empaty .form-block {
+    background-color: #ffffff;
+    width: 100%;
+    border-radius: 10px;
+    padding: 4rem 5.3rem;
+    margin: auto;
+    box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.16);
+    max-width: 46.25rem;
+}
+.sign-empaty .form-block .box {
+    max-width: 25.625rem;
+    width: 100%;
+}
+.sign-empaty .country-dropdown {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.sign-empaty .country-dropdown .fa-caret-down {
+    color: #666666;
+}
+.sign-empaty .form-item input[type='checkbox'] {
+    display: none;
+}
+
+.sign-empaty .form-item input[type='checkbox'] + label {
+    position: relative;
+    padding-left: 42px;
+    font-size: 21px;
+    font-family: 'Omnes-Regular';
+    cursor: pointer;
+    line-height: 1.75rem;
+    margin-bottom: 0;
+}
+.sign-empaty .form-item input[type='checkbox'] + label:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 1.75rem;
+    width: 1.75rem;
+    border: 0.0625rem solid #c9c9c9;
+    border-radius: 0.1875rem;
+}
+.sign-empaty .form-item input[type='checkbox'] + label:after {
+    content: '';
+    position: absolute;
+    top: 0.45rem;
+    left: 0.3125rem;
+    background: url('../images/red-check.png') no-repeat;
+    height: 1.25rem;
+    width: 1.25rem;
+    display: none;
+}
+.sign-empaty .form-item input[type='checkbox']:checked + label:after {
+    display: block;
+}
+.sign-empaty .form-box {
+    margin-bottom: 1.562rem;
+}
+
+/*------------------------------------------ terms-page-------------------------------------------------*/
+
+.terms-page .terms-block {
+    box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.16);
+    border-radius: 10px;
+    max-width: 81.25rem;
+    width: 100%;
+    padding: 3.75rem 2.68rem 3.75rem 4.375rem;
+    margin: auto;
+}
+.terms-block .register-title {
+    font-size: 1.625rem;
+    margin-bottom: 1rem;
+}
+.terms-block .form-item:not(:last-of-type) {
+    margin-bottom: 2rem;
+}
+.terms-block .form-item:last-of-type {
+    margin-bottom: 2.812rem;
+}
+
+.terms-page .form-item input[type='checkbox'] + label {
+    font-family: 'MYRIADPRO-REGULAR';
+}
+.terms-block .register-box {
+    max-width: 32.5rem;
+}
+.terms-page .form-item input[type='checkbox']:checked + label:before {
+    content: '';
+    border-color: #b52c35;
+}
+.terms-page .print-block .print-title {
+    font-size: 1.625rem;
+    font-family: 'Omnet-Light';
+}
+.terms-page .print-box {
+    border-radius: 10px;
+    border: 1px solid #000000;
+    padding: 1.87rem 0.9rem 1.87rem 1.87rem;
+}
+.terms-page .print-box .print-list {
+    font-size: 1rem;
+    font-family: 'MYRIADPRO-REGULAR';
+    line-height: 1.2;
+    max-height: 40.625rem;
+    overflow-y: auto;
+}
+.terms-page .print-box .print-list::-webkit-scrollbar {
+    width: 5px;
+    background-color: #ffffff;
+}
+
+.terms-page .print-box .print-list::-webkit-scrollbar-thumb {
+    background-color: #72affd;
+    width: 5px;
+    height: 20px;
+}
+.signup-completed .form-section .signup-confirm {
+    box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.16);
+}
+.signup-completed .form-section .signup-confirm_txt:last-of-type {
+    margin-bottom: 3.75rem;
+}
+.sign-empaty .compony-form-box {
+    display: none;
+}
+.sign-up-page .connect-btn {
+    background-color: #7795f8;
+}
+.sign-up-page .con-txt {
+    color: #000000;
+    font-size: 1.125rem;
+    font-family: 'MYRIADPRO-REGULAR';
+    display: none;
+}
+
+.col-28 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 28.4%;
+    flex: 0 0 28.4%;
+    max-width: 28.4%;
+}
+.col-43 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 43.2%;
+    flex: 0 0 43.2%;
+    max-width: 43.2%;
+}
+.mw-255 {
+    max-width: 19rem;
+    margin-left: auto;
+}
+
+/*------------------------------home-page modal------------------------------------------*/
+#signUpModal::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+#signUpModal {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+}
+
+#signUpModal .modal-left {
+    padding: 60px;
+    width: 43%;
+    background-color: #0079ff;
+    background-position: right bottom;
+}
+#signUpModal .modal-right {
+    width: 57%;
+    padding: 30px 60px 60px;
+    position: relative;
+    min-height: 600px;
+}
+
+#signUpModal .modal-right .close {
+    position: absolute;
+    right: 13px;
+    top: 8px;
+    opacity: 1;
+}
+
+#signUpModal .modal-dialog {
+    max-width: 945px;
+    border-radius: 10px;
+    height: 100%;
+    overflow: scroll;
+}
+
+#signUpModal .modal-dialog::-webkit-scrollbar {
+    display: none;
+}
+
+#signUpModal .modal-body {
+    padding: 0;
+}
+#signUpModal .logo {
+    margin-bottom: 80px;
+}
+#signUpModal .modal-left_title {
+    font-size: 30px;
+    font-family: Omnes-Regular, sans-serif;
+}
+#signUpModal .modal-left_txt {
+    font-size: 17px;
+    font-family: 'MyriadPro-Light';
+    line-height: 1.6;
+    max-width: 270px;
+    color: #ffffffd1 !important;
+}
+#signUpModal .fa-times {
+    font-size: 20px;
+    color: #383838;
+}
+#signUpModal .modal-right_pretitle {
+    font-family: MYRIADPRO-REGULAR;
+    font-size: 17px;
+    color: #000000;
+    margin-bottom: 60px;
+}
+#signUpModal .modal-right_link {
+    border-bottom: 1px solid;
+    color: #0079ff;
+}
+#signUpModal .modal-right_title {
+    font-size: 32px;
+    font-family: Omnes-Regular, sans-serif;
+    color: #000000;
+    margin-bottom: 18px;
+    font-weight: 500;
+}
+#signUpModal .modal-right .blue-btn-google {
+    width: 355px;
+    border-radius: 5px;
+    background-color: #4080f7;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    padding: 0 15px;
+    border: none;
+    color: #ffffff;
+    font-size: 1.0625rem;
+    font-family: 'MYRIADPRO-REGULAR';
+    position: relative;
+    cursor: pointer;
+}
+#signUpModal .modal-right .blue-btn-google:before {
+    content: '';
+    position: absolute;
+    left: 18px;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+    width: 18px;
+    height: 18px;
+    background: url('../images/google.png') no-repeat;
+}
+
+#signUpModal .modal-right .gray-btn-fb {
+    background-color: #4064ac;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(255, 255, 255, 1);
+}
+#signUpModal .modal-right .gray-btn-fb.twitter {
+    background: #1c9cea;
+}
+
+#signUpModal .modal-right .btn-box {
+    margin-bottom: 20px;
+}
+#signUpModal .modal-right .b-bottom {
+    border-bottom: 1px solid #dbdbdb;
+    text-align: center;
+}
+#signUpModal .modal-right .or-box {
+    margin-bottom: 25px;
+    font-family: Omnes-Regular, sans-serif;
+}
+#signUpModal .modal-right .or-txt {
+    position: relative;
+    padding: 0 7px;
+    background-color: #ffffff;
+    top: 7px;
+    font-size: 15px;
+    font-weight: 600;
+}
+#signUpModal .modal-right input {
+    height: 40px;
+    border: 1px solid #dbdbdb;
+    border-radius: 5px;
+    padding: 0 15px;
+}
+#signUpModal .modal-right .check-box input {
+    display: none;
+}
+#signUpModal .modal-right .check-box {
+    position: relative;
+}
+#signUpModal .modal-right .check-box label {
+    position: relative;
+    padding-left: 30px;
+    cursor: pointer;
+}
+#signUpModal .modal-right .check-box label:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #929292;
+    border-radius: 5px;
+}
+
+label {
+    font-family: Omnet-Light;
+}
+
+#signUpModal .modal-right .check-box .terms-checked {
+    position: absolute;
+    font-weight: 900;
+    top: 2px;
+    left: 1px;
+    display: none;
+    color: #000000;
+}
+
+#signUpModal .modal-right input[type='checkbox']:checked + .terms-checked {
+    display: block;
+}
+
+#signUpModal .modal-right .check-box .check-txt {
+    color: #929292;
+    font-family: 'Omnes Regular';
+    margin-bottom: 15px;
+}
+
+#signUpModal .modal-right .check-box .check-txt .terms {
+    color: #000000;
+    text-decoration: underline !important;
+}
+
+#signUpModal .modal-right .red-btn {
+    width: 207px;
+    border-radius: 5px;
+    background-color: #b12029;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    padding: 0 15px;
+    border: none;
+    color: #ffffff;
+    font-size: 1.0625rem;
+    font-family: 'MYRIADPRO-REGULAR';
+    position: relative;
+    cursor: pointer;
+}
+
+#signUpModal .modal-right label {
+    font-family: Omnes-Regular, sans-serif;
+    font-weight: 600;
+}
+@media (max-width: 992px) {
+    #signUpModal .modal-left {
+        display: none;
+    }
+    #signUpModal .modal-right {
+        width: 100%;
+    }
+}
+@media (max-width: 430px) {
+    #signUpModal .modal-left {
+        display: none;
+    }
+    #signUpModal .modal-right {
+        padding: 30px;
+    }
+}
+@media (max-width: 320px) {
+    #signUpModal .modal-left {
+        display: none;
+    }
+    #signUpModal .modal-right {
+        padding: 10px;
+    }
+}

@@ -1,0 +1,92 @@
+.vaucher-section .vaucher-managment-block {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0rem 0.125rem 0.9375rem 0rem rgb(0 0 0 / 10%);
+    padding: 3.4375rem 3rem 4.5rem 1.875rem;
+}
+.vaucher-section .vaucher-managment-block .search-form-box {
+    max-width: 18.75rem;
+    width: 100%;
+    border: 0.1875rem solid #767676;
+    border-radius: 0.1875rem;
+    height: 2.6875rem;
+    position: relative;
+}
+.vaucher-section .vaucher-managment-block .search-form-box input {
+    height: 100%;
+    width: 100%;
+    border: none;
+    padding: 0 1.25rem 0 3.125rem;
+    font-size: 1.125rem;
+}
+.vaucher-section .vaucher-managment-block .search-icon {
+    position: absolute;
+    left: 0.8125rem;
+    top: 0.5rem;
+    font-size: 20px;
+}
+.vaucher-section .vaucher-managment-block .new-btn {
+    background-color: #b12029;
+    color: #ffffff;
+    max-width: 10.625rem;
+    width: 100%;
+    text-transform: uppercase;
+}
+.vaucher-section .vaucher-managment-table {
+    width: 100%;
+}
+.vaucher-section .vaucher-managment-table tr {
+    border-bottom: 0.0625rem solid #cccccc;
+}
+.vaucher-section .vaucher-managment-table th {
+    font-size: 1.125rem;
+    color: #767676;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 0 1.875rem 0.875rem;
+    white-space: nowrap;
+}
+.vaucher-section .vaucher-managment-table td {
+    padding: 2.375rem 1.875rem;
+    color: #767676;
+    font-size: 1.125rem;
+    white-space: nowrap;
+}
+.vaucher-section .vaucher-managment-table td:first-child {
+    text-transform: uppercase;
+}
+.vaucher-section .pagination-box {
+    padding: 0 1.875rem 3.5625rem;
+}
+.vaucher-section .pagination-box .result-txt {
+    color: #767676;
+    margin-bottom: 16px;
+}
+.vaucher-section .pagination-box .result-txt span {
+    color: #bababa;
+}
+.vaucher-section .pagination-box .prev-item {
+    margin-right: 1rem;
+}
+.vaucher-section .pagination-box .pagination-item {
+    margin-right: 0.5rem;
+}
+.vaucher-section .pagination-box .pagination-item a, .vaucher-section .pagination-box .prev-item a, .vaucher-section .pagination-box .next-item a {
+    background-color: #ffffff;
+    border: 0.1875rem solid #cccccc;
+    border-radius: 0.1875rem;
+    text-align: center;
+    height: 2.5rem;
+    line-height: 2.125rem;
+    text-align: center;
+    cursor: pointer;
+    display: inline-block;
+    padding: 0 0.3125rem;
+}
+.vaucher-section .pagination-box .prev-item a, .vaucher-section .pagination-box .next-item a {
+    min-width: 6.25rem;
+    color: #bababa;
+}
+.vaucher-section .pagination-box .pagination-item a {
+    padding: 0 1rem;
+    color: #797979;
+}
